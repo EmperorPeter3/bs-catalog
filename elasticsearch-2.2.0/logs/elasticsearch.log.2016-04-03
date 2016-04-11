@@ -1,0 +1,181 @@
+[2016-04-03 13:35:40,476][INFO ][node                     ] [Alicia Masters] version[2.2.0], pid[9340], build[8ff36d1/2016-01-27T13:32:39Z]
+[2016-04-03 13:35:40,488][INFO ][node                     ] [Alicia Masters] initializing ...
+[2016-04-03 13:35:41,187][INFO ][plugins                  ] [Alicia Masters] modules [lang-expression, lang-groovy], plugins [license, marvel-agent], sites []
+[2016-04-03 13:35:41,208][INFO ][env                      ] [Alicia Masters] using [1] data paths, mounts [[Windows (C:)]], net usable_space [296.9gb], net total_space [516.5gb], spins? [unknown], types [NTFS]
+[2016-04-03 13:35:41,208][INFO ][env                      ] [Alicia Masters] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-04-03 13:35:43,119][INFO ][node                     ] [Alicia Masters] initialized
+[2016-04-03 13:35:43,119][INFO ][node                     ] [Alicia Masters] starting ...
+[2016-04-03 13:35:43,441][INFO ][transport                ] [Alicia Masters] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-04-03 13:35:43,448][INFO ][discovery                ] [Alicia Masters] elasticsearch/8L9d6cKJTFqqdWGpRiyXEw
+[2016-04-03 13:35:47,528][INFO ][cluster.service          ] [Alicia Masters] new_master {Alicia Masters}{8L9d6cKJTFqqdWGpRiyXEw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-03 13:35:47,769][INFO ][http                     ] [Alicia Masters] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-04-03 13:35:47,776][INFO ][node                     ] [Alicia Masters] started
+[2016-04-03 13:35:48,152][INFO ][license.plugin.core      ] [Alicia Masters] license [e553a35c-d414-42dd-a0ca-b223abde3239] - valid
+[2016-04-03 13:35:48,156][ERROR][license.plugin.core      ] [Alicia Masters] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-03 13:35:48,421][INFO ][gateway                  ] [Alicia Masters] recovered [7] indices into cluster_state
+[2016-04-03 13:35:50,585][INFO ][cluster.routing.allocation] [Alicia Masters] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.marvel-es-2016.03.13][0]] ...]).
+[2016-04-03 13:35:53,415][INFO ][cluster.metadata         ] [Alicia Masters] [.marvel-es-2016.04.03] creating index, cause [auto(bulk api)], templates [.marvel-es], shards [1]/[1], mappings [shards, node, _default_, index_stats, nodes, index_recovery, cluster_state, cluster_info, cluster_stats, node_stats, indices_stats]
+[2016-04-03 13:35:53,665][INFO ][cluster.routing.allocation] [Alicia Masters] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.marvel-es-2016.04.03][0]] ...]).
+[2016-04-03 13:35:53,809][INFO ][cluster.metadata         ] [Alicia Masters] [.marvel-es-2016.04.03] update_mapping [cluster_stats]
+[2016-04-03 13:35:53,914][INFO ][cluster.metadata         ] [Alicia Masters] [.marvel-es-2016.04.03] update_mapping [node_stats]
+[2016-04-03 13:35:53,950][INFO ][cluster.metadata         ] [Alicia Masters] [.marvel-es-2016.04.03] update_mapping [indices_stats]
+[2016-04-03 18:36:00,580][INFO ][rest.suppressed          ] /shakespeare Params: {index=shakespeare}
+[shakespeare] IndexNotFoundException[no such index]
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver$WildcardExpressionResolver.resolve(IndexNameExpressionResolver.java:586)
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteIndices(IndexNameExpressionResolver.java:133)
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteIndices(IndexNameExpressionResolver.java:77)
+	at org.elasticsearch.action.admin.indices.get.TransportGetIndexAction.checkBlock(TransportGetIndexAction.java:64)
+	at org.elasticsearch.action.admin.indices.get.TransportGetIndexAction.checkBlock(TransportGetIndexAction.java:48)
+	at org.elasticsearch.action.support.master.TransportMasterNodeAction$AsyncSingleAction.doStart(TransportMasterNodeAction.java:129)
+	at org.elasticsearch.action.support.master.TransportMasterNodeAction$AsyncSingleAction.start(TransportMasterNodeAction.java:121)
+	at org.elasticsearch.action.support.master.TransportMasterNodeAction.doExecute(TransportMasterNodeAction.java:93)
+	at org.elasticsearch.action.support.master.TransportMasterNodeAction.doExecute(TransportMasterNodeAction.java:50)
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:70)
+	at org.elasticsearch.client.node.NodeClient.doExecute(NodeClient.java:58)
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:351)
+	at org.elasticsearch.client.FilterClient.doExecute(FilterClient.java:52)
+	at org.elasticsearch.rest.BaseRestHandler$HeadersAndContextCopyClient.doExecute(BaseRestHandler.java:83)
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:351)
+	at org.elasticsearch.client.support.AbstractClient$IndicesAdmin.execute(AbstractClient.java:1187)
+	at org.elasticsearch.client.support.AbstractClient$IndicesAdmin.getIndex(AbstractClient.java:1287)
+	at org.elasticsearch.rest.action.admin.indices.get.RestGetIndicesAction.handleRequest(RestGetIndicesAction.java:83)
+	at org.elasticsearch.rest.BaseRestHandler.handleRequest(BaseRestHandler.java:54)
+	at org.elasticsearch.rest.RestController.executeHandler(RestController.java:207)
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:166)
+	at org.elasticsearch.http.HttpServer.internalDispatchRequest(HttpServer.java:128)
+	at org.elasticsearch.http.HttpServer$Dispatcher.dispatchRequest(HttpServer.java:86)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.dispatchRequest(NettyHttpServerTransport.java:363)
+	at org.elasticsearch.http.netty.HttpRequestHandler.messageReceived(HttpRequestHandler.java:63)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.http.netty.pipelining.HttpPipeliningHandler.messageReceived(HttpPipeliningHandler.java:60)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleUpstream(SimpleChannelHandler.java:88)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpChunkAggregator.messageReceived(HttpChunkAggregator.java:145)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpContentDecoder.messageReceived(HttpContentDecoder.java:108)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:459)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.callDecode(ReplayingDecoder.java:536)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.messageReceived(ReplayingDecoder.java:435)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:75)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-03 18:38:16,124][DEBUG][action.admin.indices.create] [Alicia Masters] [shakespeare -d] failed to create
+[shakespeare -d] InvalidIndexNameException[Invalid index name [shakespeare -d], must not contain the following characters [\, /, *, ?, ", <, >, |,  , ,]]
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateIndexName(MetaDataCreateIndexService.java:144)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validate(MetaDataCreateIndexService.java:473)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.access$100(MetaDataCreateIndexService.java:97)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$1.execute(MetaDataCreateIndexService.java:192)
+	at org.elasticsearch.cluster.ClusterStateUpdateTask.execute(ClusterStateUpdateTask.java:45)
+	at org.elasticsearch.cluster.service.InternalClusterService.runTasksForExecutor(InternalClusterService.java:458)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:762)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:231)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-03 18:38:16,139][INFO ][rest.suppressed          ] /shakespeare -d Params: {index=shakespeare -d}
+[shakespeare -d] InvalidIndexNameException[Invalid index name [shakespeare -d], must not contain the following characters [\, /, *, ?, ", <, >, |,  , ,]]
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateIndexName(MetaDataCreateIndexService.java:144)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validate(MetaDataCreateIndexService.java:473)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.access$100(MetaDataCreateIndexService.java:97)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$1.execute(MetaDataCreateIndexService.java:192)
+	at org.elasticsearch.cluster.ClusterStateUpdateTask.execute(ClusterStateUpdateTask.java:45)
+	at org.elasticsearch.cluster.service.InternalClusterService.runTasksForExecutor(InternalClusterService.java:458)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:762)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:231)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-03 18:39:10,635][DEBUG][action.admin.indices.create] [Alicia Masters] [shakespeare -d '{"mappings" : { "_default_" : {  "properties" : { "speaker" : {"type": "string", "index" : "not_analyzed" }, "play_name" : {"type": "string", "index" : "not_analyzed" }, "line_id" : { "type" : "integer" }, "speech_number" : { "type" : "integer" }}}}}'] failed to create
+[shakespeare -d '{"mappings" : { "_default_" : {  "properties" : { "speaker" : {"type": "string", "index" : "not_analyzed" }, "play_name" : {"type": "string", "index" : "not_analyzed" }, "line_id" : { "type" : "integer" }, "speech_number" : { "type" : "integer" }}}}}'] InvalidIndexNameException[Invalid index name [shakespeare -d '{"mappings" : { "_default_" : {  "properties" : { "speaker" : {"type": "string", "index" : "not_analyzed" }, "play_name" : {"type": "string", "index" : "not_analyzed" }, "line_id" : { "type" : "integer" }, "speech_number" : { "type" : "integer" }}}}}'], must not contain the following characters [\, /, *, ?, ", <, >, |,  , ,]]
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateIndexName(MetaDataCreateIndexService.java:144)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validate(MetaDataCreateIndexService.java:473)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.access$100(MetaDataCreateIndexService.java:97)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$1.execute(MetaDataCreateIndexService.java:192)
+	at org.elasticsearch.cluster.ClusterStateUpdateTask.execute(ClusterStateUpdateTask.java:45)
+	at org.elasticsearch.cluster.service.InternalClusterService.runTasksForExecutor(InternalClusterService.java:458)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:762)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:231)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-03 18:39:10,646][INFO ][rest.suppressed          ] /shakespeare -d '{"mappings" : { "_default_" : {  "properties" : { "speaker" : {"type": "string", "index" : "not_analyzed" }, "play_name" : {"type": "string", "index" : "not_analyzed" }, "line_id" : { "type" : "integer" }, "speech_number" : { "type" : "integer" }}}}}' Params: {index=shakespeare -d '{"mappings" : { "_default_" : {  "properties" : { "speaker" : {"type": "string", "index" : "not_analyzed" }, "play_name" : {"type": "string", "index" : "not_analyzed" }, "line_id" : { "type" : "integer" }, "speech_number" : { "type" : "integer" }}}}}'}
+[shakespeare -d '{"mappings" : { "_default_" : {  "properties" : { "speaker" : {"type": "string", "index" : "not_analyzed" }, "play_name" : {"type": "string", "index" : "not_analyzed" }, "line_id" : { "type" : "integer" }, "speech_number" : { "type" : "integer" }}}}}'] InvalidIndexNameException[Invalid index name [shakespeare -d '{"mappings" : { "_default_" : {  "properties" : { "speaker" : {"type": "string", "index" : "not_analyzed" }, "play_name" : {"type": "string", "index" : "not_analyzed" }, "line_id" : { "type" : "integer" }, "speech_number" : { "type" : "integer" }}}}}'], must not contain the following characters [\, /, *, ?, ", <, >, |,  , ,]]
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateIndexName(MetaDataCreateIndexService.java:144)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validate(MetaDataCreateIndexService.java:473)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.access$100(MetaDataCreateIndexService.java:97)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$1.execute(MetaDataCreateIndexService.java:192)
+	at org.elasticsearch.cluster.ClusterStateUpdateTask.execute(ClusterStateUpdateTask.java:45)
+	at org.elasticsearch.cluster.service.InternalClusterService.runTasksForExecutor(InternalClusterService.java:458)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:762)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:231)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-03 18:39:26,971][DEBUG][action.admin.indices.create] [Alicia Masters] [shakespeare -d '{"mappings" : { "_default_" : {  "properties" : { "speaker" : {"type": "string", "index" : "not_analyzed" }, "play_name" : {"type": "string", "index" : "not_analyzed" }, "line_id" : { "type" : "integer" }, "speech_number" : { "type" : "integer" }}}}}'] failed to create
+[shakespeare -d '{"mappings" : { "_default_" : {  "properties" : { "speaker" : {"type": "string", "index" : "not_analyzed" }, "play_name" : {"type": "string", "index" : "not_analyzed" }, "line_id" : { "type" : "integer" }, "speech_number" : { "type" : "integer" }}}}}'] InvalidIndexNameException[Invalid index name [shakespeare -d '{"mappings" : { "_default_" : {  "properties" : { "speaker" : {"type": "string", "index" : "not_analyzed" }, "play_name" : {"type": "string", "index" : "not_analyzed" }, "line_id" : { "type" : "integer" }, "speech_number" : { "type" : "integer" }}}}}'], must not contain the following characters [\, /, *, ?, ", <, >, |,  , ,]]
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateIndexName(MetaDataCreateIndexService.java:144)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validate(MetaDataCreateIndexService.java:473)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.access$100(MetaDataCreateIndexService.java:97)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$1.execute(MetaDataCreateIndexService.java:192)
+	at org.elasticsearch.cluster.ClusterStateUpdateTask.execute(ClusterStateUpdateTask.java:45)
+	at org.elasticsearch.cluster.service.InternalClusterService.runTasksForExecutor(InternalClusterService.java:458)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:762)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:231)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-03 18:39:26,981][INFO ][rest.suppressed          ] /shakespeare -d '{"mappings" : { "_default_" : {  "properties" : { "speaker" : {"type": "string", "index" : "not_analyzed" }, "play_name" : {"type": "string", "index" : "not_analyzed" }, "line_id" : { "type" : "integer" }, "speech_number" : { "type" : "integer" }}}}}' Params: {index=shakespeare -d '{"mappings" : { "_default_" : {  "properties" : { "speaker" : {"type": "string", "index" : "not_analyzed" }, "play_name" : {"type": "string", "index" : "not_analyzed" }, "line_id" : { "type" : "integer" }, "speech_number" : { "type" : "integer" }}}}}'}
+[shakespeare -d '{"mappings" : { "_default_" : {  "properties" : { "speaker" : {"type": "string", "index" : "not_analyzed" }, "play_name" : {"type": "string", "index" : "not_analyzed" }, "line_id" : { "type" : "integer" }, "speech_number" : { "type" : "integer" }}}}}'] InvalidIndexNameException[Invalid index name [shakespeare -d '{"mappings" : { "_default_" : {  "properties" : { "speaker" : {"type": "string", "index" : "not_analyzed" }, "play_name" : {"type": "string", "index" : "not_analyzed" }, "line_id" : { "type" : "integer" }, "speech_number" : { "type" : "integer" }}}}}'], must not contain the following characters [\, /, *, ?, ", <, >, |,  , ,]]
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validateIndexName(MetaDataCreateIndexService.java:144)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.validate(MetaDataCreateIndexService.java:473)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService.access$100(MetaDataCreateIndexService.java:97)
+	at org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$1.execute(MetaDataCreateIndexService.java:192)
+	at org.elasticsearch.cluster.ClusterStateUpdateTask.execute(ClusterStateUpdateTask.java:45)
+	at org.elasticsearch.cluster.service.InternalClusterService.runTasksForExecutor(InternalClusterService.java:458)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:762)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:231)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-03 18:43:16,789][INFO ][cluster.metadata         ] [Alicia Masters] [shakespeare] creating index, cause [api], templates [], shards [5]/[1], mappings [_default_]
+[2016-04-03 18:43:17,168][INFO ][cluster.routing.allocation] [Alicia Masters] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[shakespeare][4]] ...]).
+[2016-04-03 18:43:35,110][INFO ][cluster.metadata         ] [Alicia Masters] [shakespeare] create_mapping [line]
+[2016-04-03 18:43:35,114][INFO ][cluster.metadata         ] [Alicia Masters] [shakespeare] create_mapping [scene]
+[2016-04-03 18:43:35,118][INFO ][cluster.metadata         ] [Alicia Masters] [shakespeare] create_mapping [act]

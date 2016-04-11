@@ -1,0 +1,73 @@
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-offset-3 col-md-5">
+			<form class="form-horizontal" role="form" ng-submit="addNewBusiness()">
+			  <div class="form-group">
+			    <label class="control-label col-md-4" for="man_name">Тип производства:</label>
+			    <div class="col-md-8">
+			      <input type="text" class="form-control" id="man_name" ng-model='business.manufacture_name'>
+			    </div>
+			  </div>
+			  <div class="form-group">
+			    <label class="control-label col-md-4" for="com_name">Название компании:</label>
+			    <div class="col-md-8"> 
+			      <input type="text" class="form-control" id="com_name" ng-model='business.company_name'>
+			    </div>
+			  </div>
+			  <div class="form-group">
+			    <label class="control-label col-md-4" for="comp_addr">Адрес компании:</label>
+			    <div class="col-md-8"> 
+			      <input type="text" class="form-control" id="comp_addr" ng-model='business.company_address'>
+			    </div>
+			  </div>
+			  <div class="form-group">
+			    <label class="control-label col-md-4" for="comp_dir">Руководитель компании:</label>
+			    <div class="col-md-8"> 
+			      <input type="text" class="form-control" id="comp_dir" ng-model='business.company_director'>
+			    </div>
+			  </div>
+			  <div class="form-group">
+			    <label class="control-label col-md-4" for="dir_phone">Телефон</label>
+			    <div class="col-md-8"> 
+			      <input type="text" class="form-control" id="dir_phone" ng-model='business.director_phone'>
+			    </div>
+			  </div>
+			  <div class="form-group">
+			    <label class="control-label col-md-4" for="dir_mail">Почта(e-mail)</label>
+			    <div class="col-md-8"> 
+			      <input type="text" class="form-control" id="dir_mail" ng-model='business.director_mail'>
+			    </div>
+			  </div>
+			  <div class="form-group">
+			    <label class="control-label col-md-4" for="add_cont_name">Дополнительный контакт:</label>
+			    <div class="col-md-8"> 
+			      <input type="text" class="form-control" id="add_cont_name" ng-model='business.additional_contact_name'>
+			    </div>
+			  </div>
+			  <div class="form-group">
+			    <label class="control-label col-md-4" for="add_cont_phone">Телефон:</label>
+			    <div class="col-md-8"> 
+			      <input type="text" class="form-control" id="add_cont_phone" ng-model='business.additional_contact_phone'>
+			    </div>
+			  </div>
+			  <div class="form-group">
+			    <label class="control-label col-md-4" for="com_site">Сайт компании:</label>
+			    <div class="col-md-8"> 
+			      <input type="text" class="form-control" id="com_site" ng-model='business.company_site'>
+			    </div>
+			  </div>
+			  <div class="form-group">
+			    <label class="control-label col-md-4" for="com_descr">Описание компании:</label>
+			    <div class="col-md-8">
+			      <textarea class="form-control" rows="5" id="com_descr" ng-model='business.company_description'></textarea>
+			  	</div>
+			  </div>
+			  <div class="form-group"> 
+			      <div class="col-md-offset-10 col-md-2">
+			        <button type="submit" class="btn btn-success">Submit</button>
+			      </div>
+			    </div>
+			</form>
+		</div>
+	</div>
+</div>

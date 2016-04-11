@@ -1,0 +1,491 @@
+[2016-03-13 20:31:48,046][INFO ][node                     ] [Crossfire] version[2.2.0], pid[7880], build[8ff36d1/2016-01-27T13:32:39Z]
+[2016-03-13 20:31:48,046][INFO ][node                     ] [Crossfire] initializing ...
+[2016-03-13 20:31:48,362][INFO ][plugins                  ] [Crossfire] modules [lang-expression, lang-groovy], plugins [], sites []
+[2016-03-13 20:31:48,384][INFO ][env                      ] [Crossfire] using [1] data paths, mounts [[Windows (C:)]], net usable_space [336gb], net total_space [516.5gb], spins? [unknown], types [NTFS]
+[2016-03-13 20:31:48,384][INFO ][env                      ] [Crossfire] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-03-13 20:31:51,185][INFO ][node                     ] [Crossfire] initialized
+[2016-03-13 20:31:51,185][INFO ][node                     ] [Crossfire] starting ...
+[2016-03-13 20:31:51,537][INFO ][transport                ] [Crossfire] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-03-13 20:31:51,537][INFO ][discovery                ] [Crossfire] elasticsearch/YW1Y_3shQaCzBw6OMndxYQ
+[2016-03-13 20:31:55,689][INFO ][cluster.service          ] [Crossfire] new_master {Crossfire}{YW1Y_3shQaCzBw6OMndxYQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-03-13 20:31:55,751][INFO ][gateway                  ] [Crossfire] recovered [0] indices into cluster_state
+[2016-03-13 20:31:55,853][INFO ][http                     ] [Crossfire] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-03-13 20:31:55,856][INFO ][node                     ] [Crossfire] started
+[2016-03-13 20:35:37,859][INFO ][node                     ] [Crossfire] stopping ...
+[2016-03-13 20:35:37,910][INFO ][node                     ] [Crossfire] stopped
+[2016-03-13 20:35:37,912][INFO ][node                     ] [Crossfire] closing ...
+[2016-03-13 20:35:37,924][INFO ][node                     ] [Crossfire] closed
+[2016-03-13 20:36:26,693][INFO ][node                     ] [Lyja] version[2.2.0], pid[9796], build[8ff36d1/2016-01-27T13:32:39Z]
+[2016-03-13 20:36:26,695][INFO ][node                     ] [Lyja] initializing ...
+[2016-03-13 20:36:27,027][INFO ][plugins                  ] [Lyja] modules [lang-expression, lang-groovy], plugins [], sites []
+[2016-03-13 20:36:27,054][INFO ][env                      ] [Lyja] using [1] data paths, mounts [[Windows (C:)]], net usable_space [336gb], net total_space [516.5gb], spins? [unknown], types [NTFS]
+[2016-03-13 20:36:27,057][INFO ][env                      ] [Lyja] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-03-13 20:36:28,295][INFO ][node                     ] [Lyja] initialized
+[2016-03-13 20:36:28,296][INFO ][node                     ] [Lyja] starting ...
+[2016-03-13 20:36:28,512][INFO ][transport                ] [Lyja] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-03-13 20:36:28,520][INFO ][discovery                ] [Lyja] elasticsearch/DDC4LGxPQ6q58_QbXKTy4g
+[2016-03-13 20:36:32,563][INFO ][cluster.service          ] [Lyja] new_master {Lyja}{DDC4LGxPQ6q58_QbXKTy4g}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-03-13 20:36:32,639][INFO ][gateway                  ] [Lyja] recovered [0] indices into cluster_state
+[2016-03-13 20:36:32,741][INFO ][http                     ] [Lyja] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-03-13 20:36:32,744][INFO ][node                     ] [Lyja] started
+[2016-03-13 20:41:20,406][INFO ][node                     ] [Lyja] stopping ...
+[2016-03-13 20:41:20,459][INFO ][node                     ] [Lyja] stopped
+[2016-03-13 20:41:20,459][INFO ][node                     ] [Lyja] closing ...
+[2016-03-13 20:41:20,459][INFO ][node                     ] [Lyja] closed
+[2016-03-13 20:42:05,091][INFO ][node                     ] [Elven] version[2.2.0], pid[5792], build[8ff36d1/2016-01-27T13:32:39Z]
+[2016-03-13 20:42:05,091][INFO ][node                     ] [Elven] initializing ...
+[2016-03-13 20:42:05,460][INFO ][plugins                  ] [Elven] modules [lang-expression, lang-groovy], plugins [license, marvel-agent], sites []
+[2016-03-13 20:42:05,476][INFO ][env                      ] [Elven] using [1] data paths, mounts [[Windows (C:)]], net usable_space [335.9gb], net total_space [516.5gb], spins? [unknown], types [NTFS]
+[2016-03-13 20:42:05,476][INFO ][env                      ] [Elven] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-03-13 20:42:07,000][INFO ][node                     ] [Elven] initialized
+[2016-03-13 20:42:07,000][INFO ][node                     ] [Elven] starting ...
+[2016-03-13 20:42:07,216][INFO ][transport                ] [Elven] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-03-13 20:42:07,216][INFO ][discovery                ] [Elven] elasticsearch/PCVSoy_JQZ6iUUSc1Yh7LQ
+[2016-03-13 20:42:11,324][INFO ][cluster.service          ] [Elven] new_master {Elven}{PCVSoy_JQZ6iUUSc1Yh7LQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-03-13 20:42:11,477][INFO ][gateway                  ] [Elven] recovered [0] indices into cluster_state
+[2016-03-13 20:42:11,524][INFO ][http                     ] [Elven] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-03-13 20:42:11,524][INFO ][node                     ] [Elven] started
+[2016-03-13 20:42:11,636][INFO ][license.plugin.core      ] [Elven] license [e553a35c-d414-42dd-a0ca-b223abde3239] - valid
+[2016-03-13 20:42:11,651][ERROR][license.plugin.core      ] [Elven] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-03-13 20:42:17,215][INFO ][cluster.metadata         ] [Elven] [.marvel-es-2016.03.13] creating index, cause [auto(bulk api)], templates [.marvel-es], shards [1]/[1], mappings [node, _default_, shards, index_stats, nodes, index_recovery, cluster_state, cluster_info, cluster_stats, indices_stats, node_stats]
+[2016-03-13 20:42:17,375][INFO ][cluster.metadata         ] [Elven] [.marvel-es-data] creating index, cause [auto(bulk api)], templates [.marvel-es], shards [1]/[1], mappings [node, _default_, shards, index_stats, nodes, index_recovery, cluster_state, cluster_info, cluster_stats, node_stats, indices_stats]
+[2016-03-13 20:42:17,585][INFO ][cluster.routing.allocation] [Elven] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.marvel-es-data][0], [.marvel-es-data][0]] ...]).
+[2016-03-13 20:42:17,669][INFO ][cluster.metadata         ] [Elven] [.marvel-es-2016.03.13] update_mapping [cluster_stats]
+[2016-03-13 20:42:17,729][INFO ][cluster.metadata         ] [Elven] [.marvel-es-2016.03.13] update_mapping [node_stats]
+[2016-03-13 20:42:28,026][INFO ][cluster.metadata         ] [Elven] [.marvel-es-2016.03.13] update_mapping [indices_stats]
+[2016-03-13 20:42:28,066][INFO ][cluster.metadata         ] [Elven] [.marvel-es-2016.03.13] update_mapping [cluster_stats]
+[2016-03-13 20:42:39,063][INFO ][node                     ] [Elven] stopping ...
+[2016-03-13 20:42:39,467][INFO ][node                     ] [Elven] stopped
+[2016-03-13 20:42:39,467][INFO ][node                     ] [Elven] closing ...
+[2016-03-13 20:42:39,483][INFO ][node                     ] [Elven] closed
+[2016-03-13 20:54:51,897][INFO ][node                     ] [Katrina Luisa van Horne] version[2.2.0], pid[8196], build[8ff36d1/2016-01-27T13:32:39Z]
+[2016-03-13 20:54:51,897][INFO ][node                     ] [Katrina Luisa van Horne] initializing ...
+[2016-03-13 20:54:52,313][INFO ][plugins                  ] [Katrina Luisa van Horne] modules [lang-expression, lang-groovy], plugins [license, marvel-agent], sites []
+[2016-03-13 20:54:52,329][INFO ][env                      ] [Katrina Luisa van Horne] using [1] data paths, mounts [[Windows (C:)]], net usable_space [335.8gb], net total_space [516.5gb], spins? [unknown], types [NTFS]
+[2016-03-13 20:54:52,329][INFO ][env                      ] [Katrina Luisa van Horne] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-03-13 20:54:53,876][INFO ][node                     ] [Katrina Luisa van Horne] initialized
+[2016-03-13 20:54:53,877][INFO ][node                     ] [Katrina Luisa van Horne] starting ...
+[2016-03-13 20:54:54,077][INFO ][transport                ] [Katrina Luisa van Horne] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-03-13 20:54:54,099][INFO ][discovery                ] [Katrina Luisa van Horne] elasticsearch/Ce5xXvvlQKmI2utNwdPOVw
+[2016-03-13 20:54:58,194][INFO ][cluster.service          ] [Katrina Luisa van Horne] new_master {Katrina Luisa van Horne}{Ce5xXvvlQKmI2utNwdPOVw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-03-13 20:54:58,410][INFO ][http                     ] [Katrina Luisa van Horne] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-03-13 20:54:58,413][INFO ][node                     ] [Katrina Luisa van Horne] started
+[2016-03-13 20:54:58,416][INFO ][license.plugin.core      ] [Katrina Luisa van Horne] license [e553a35c-d414-42dd-a0ca-b223abde3239] - valid
+[2016-03-13 20:54:58,416][ERROR][license.plugin.core      ] [Katrina Luisa van Horne] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-03-13 20:54:58,518][INFO ][gateway                  ] [Katrina Luisa van Horne] recovered [2] indices into cluster_state
+[2016-03-13 20:54:59,030][INFO ][cluster.routing.allocation] [Katrina Luisa van Horne] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.marvel-es-2016.03.13][0]] ...]).
+[2016-03-13 20:55:04,985][INFO ][cluster.metadata         ] [Katrina Luisa van Horne] [.kibana] creating index, cause [api], templates [], shards [1]/[1], mappings [config]
+[2016-03-13 20:55:05,245][INFO ][cluster.routing.allocation] [Katrina Luisa van Horne] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.kibana][0]] ...]).
+[2016-03-13 20:55:07,952][INFO ][cluster.metadata         ] [Katrina Luisa van Horne] [.kibana] create_mapping [index-pattern]
+[2016-03-13 20:55:08,227][INFO ][cluster.metadata         ] [Katrina Luisa van Horne] [.kibana] update_mapping [config]
+[2016-03-13 20:56:16,325][INFO ][node                     ] [Katrina Luisa van Horne] stopping ...
+[2016-03-13 20:56:17,196][INFO ][node                     ] [Katrina Luisa van Horne] stopped
+[2016-03-13 20:56:17,198][INFO ][node                     ] [Katrina Luisa van Horne] closing ...
+[2016-03-13 20:56:17,203][INFO ][node                     ] [Katrina Luisa van Horne] closed
+[2016-03-13 20:56:28,590][INFO ][node                     ] [Lady Mandarin] version[2.2.0], pid[5760], build[8ff36d1/2016-01-27T13:32:39Z]
+[2016-03-13 20:56:28,593][INFO ][node                     ] [Lady Mandarin] initializing ...
+[2016-03-13 20:56:28,970][INFO ][plugins                  ] [Lady Mandarin] modules [lang-expression, lang-groovy], plugins [license, marvel-agent], sites []
+[2016-03-13 20:56:28,993][INFO ][env                      ] [Lady Mandarin] using [1] data paths, mounts [[Windows (C:)]], net usable_space [335.7gb], net total_space [516.5gb], spins? [unknown], types [NTFS]
+[2016-03-13 20:56:28,995][INFO ][env                      ] [Lady Mandarin] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-03-13 20:56:30,302][INFO ][node                     ] [Lady Mandarin] initialized
+[2016-03-13 20:56:30,303][INFO ][node                     ] [Lady Mandarin] starting ...
+[2016-03-13 20:56:30,517][INFO ][transport                ] [Lady Mandarin] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-03-13 20:56:30,525][INFO ][discovery                ] [Lady Mandarin] elasticsearch/0AesM3AjRPSrzDcH2PA2aQ
+[2016-03-13 20:56:34,561][INFO ][cluster.service          ] [Lady Mandarin] new_master {Lady Mandarin}{0AesM3AjRPSrzDcH2PA2aQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-03-13 20:56:34,786][INFO ][license.plugin.core      ] [Lady Mandarin] license [e553a35c-d414-42dd-a0ca-b223abde3239] - valid
+[2016-03-13 20:56:34,791][ERROR][license.plugin.core      ] [Lady Mandarin] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-03-13 20:56:34,794][INFO ][http                     ] [Lady Mandarin] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-03-13 20:56:34,808][INFO ][node                     ] [Lady Mandarin] started
+[2016-03-13 20:56:34,935][INFO ][gateway                  ] [Lady Mandarin] recovered [3] indices into cluster_state
+[2016-03-13 20:56:35,485][INFO ][cluster.routing.allocation] [Lady Mandarin] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.marvel-es-2016.03.13][0], [.kibana][0]] ...]).
+[2016-03-13 21:00:08,185][INFO ][node                     ] [Lady Mandarin] stopping ...
+[2016-03-13 21:00:08,579][INFO ][node                     ] [Lady Mandarin] stopped
+[2016-03-13 21:00:08,579][INFO ][node                     ] [Lady Mandarin] closing ...
+[2016-03-13 21:00:08,584][INFO ][node                     ] [Lady Mandarin] closed
+[2016-03-13 21:00:12,691][INFO ][node                     ] [Immortus] version[2.2.0], pid[6804], build[8ff36d1/2016-01-27T13:32:39Z]
+[2016-03-13 21:00:12,695][INFO ][node                     ] [Immortus] initializing ...
+[2016-03-13 21:00:13,091][INFO ][plugins                  ] [Immortus] modules [lang-expression, lang-groovy], plugins [license, marvel-agent], sites []
+[2016-03-13 21:00:13,107][INFO ][env                      ] [Immortus] using [1] data paths, mounts [[Windows (C:)]], net usable_space [335.7gb], net total_space [516.5gb], spins? [unknown], types [NTFS]
+[2016-03-13 21:00:13,121][INFO ][env                      ] [Immortus] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-03-13 21:00:14,418][INFO ][node                     ] [Immortus] initialized
+[2016-03-13 21:00:14,418][INFO ][node                     ] [Immortus] starting ...
+[2016-03-13 21:00:14,634][INFO ][transport                ] [Immortus] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-03-13 21:00:14,649][INFO ][discovery                ] [Immortus] elasticsearch/LaAY-K3XTyytltyK6o_-Qw
+[2016-03-13 21:00:18,703][INFO ][cluster.service          ] [Immortus] new_master {Immortus}{LaAY-K3XTyytltyK6o_-Qw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-03-13 21:00:18,940][INFO ][license.plugin.core      ] [Immortus] license [e553a35c-d414-42dd-a0ca-b223abde3239] - valid
+[2016-03-13 21:00:18,945][ERROR][license.plugin.core      ] [Immortus] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-03-13 21:00:18,953][INFO ][http                     ] [Immortus] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-03-13 21:00:18,956][INFO ][node                     ] [Immortus] started
+[2016-03-13 21:00:19,052][INFO ][gateway                  ] [Immortus] recovered [3] indices into cluster_state
+[2016-03-13 21:00:19,597][INFO ][cluster.routing.allocation] [Immortus] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.marvel-es-2016.03.13][0], [.marvel-es-2016.03.13][0]] ...]).
+[2016-03-13 21:03:13,712][INFO ][cluster.metadata         ] [Immortus] [.kibana] create_mapping [search]
+[2016-03-13 21:04:38,579][INFO ][cluster.metadata         ] [Immortus] [.kibana] create_mapping [dashboard]
+[2016-03-13 21:14:43,146][DEBUG][action.search.type       ] [Immortus] [.marvel-es-2016.03.13][0], node[LaAY-K3XTyytltyK6o_-Qw], [P], v[8], s[STARTED], a[id=HxnzM3_gTxyXm30L3o-SDA]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4133503c] lastShard [true]
+RemoteTransportException[[Immortus][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{
+   "query": {
+      "match_all": {"Lady Mandarin"}
+   }
+}
+]]; nested: QueryParsingException[Failed to parse]; nested: JsonParseException[Unexpected character ('}' (code 125)): was expecting a colon to separate field name and value
+ at [Source: [B@3285ab43; line: 3, column: 37]];
+Caused by: SearchParseException[failed to parse search source [{
+   "query": {
+      "match_all": {"Lady Mandarin"}
+   }
+}
+]]; nested: QueryParsingException[Failed to parse]; nested: JsonParseException[Unexpected character ('}' (code 125)): was expecting a colon to separate field name and value
+ at [Source: [B@3285ab43; line: 3, column: 37]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:853)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:652)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:618)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:369)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: [.marvel-es-2016.03.13] QueryParsingException[Failed to parse]; nested: JsonParseException[Unexpected character ('}' (code 125)): was expecting a colon to separate field name and value
+ at [Source: [B@3285ab43; line: 3, column: 37]];
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:208)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:201)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:836)
+	... 10 more
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting a colon to separate field name and value
+ at [Source: [B@3285ab43; line: 3, column: 37]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1581)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:533)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:462)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._skipColon2(UTF8StreamJsonParser.java:3006)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._skipColon(UTF8StreamJsonParser.java:2981)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:744)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:53)
+	at org.elasticsearch.index.query.MatchAllQueryParser.parse(MatchAllQueryParser.java:55)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:256)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:303)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:206)
+	... 13 more
+[2016-03-13 21:14:43,146][DEBUG][action.search.type       ] [Immortus] [.kibana][0], node[LaAY-K3XTyytltyK6o_-Qw], [P], v[6], s[STARTED], a[id=mq2R8TobQ2250OdtSFYU9g]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4133503c] lastShard [true]
+RemoteTransportException[[Immortus][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{
+   "query": {
+      "match_all": {"Lady Mandarin"}
+   }
+}
+]]; nested: QueryParsingException[Failed to parse]; nested: JsonParseException[Unexpected character ('}' (code 125)): was expecting a colon to separate field name and value
+ at [Source: [B@3285ab43; line: 3, column: 37]];
+Caused by: SearchParseException[failed to parse search source [{
+   "query": {
+      "match_all": {"Lady Mandarin"}
+   }
+}
+]]; nested: QueryParsingException[Failed to parse]; nested: JsonParseException[Unexpected character ('}' (code 125)): was expecting a colon to separate field name and value
+ at [Source: [B@3285ab43; line: 3, column: 37]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:853)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:652)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:618)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:369)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: [.kibana] QueryParsingException[Failed to parse]; nested: JsonParseException[Unexpected character ('}' (code 125)): was expecting a colon to separate field name and value
+ at [Source: [B@3285ab43; line: 3, column: 37]];
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:208)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:201)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:836)
+	... 10 more
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting a colon to separate field name and value
+ at [Source: [B@3285ab43; line: 3, column: 37]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1581)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:533)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:462)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._skipColon2(UTF8StreamJsonParser.java:3006)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._skipColon(UTF8StreamJsonParser.java:2981)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:744)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:53)
+	at org.elasticsearch.index.query.MatchAllQueryParser.parse(MatchAllQueryParser.java:55)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:256)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:303)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:206)
+	... 13 more
+[2016-03-13 21:14:43,146][DEBUG][action.search.type       ] [Immortus] [.marvel-es-data][0], node[LaAY-K3XTyytltyK6o_-Qw], [P], v[8], s[STARTED], a[id=bVw0JTCQQI6jkgdEThHs9A]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4133503c]
+RemoteTransportException[[Immortus][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{
+   "query": {
+      "match_all": {"Lady Mandarin"}
+   }
+}
+]]; nested: QueryParsingException[Failed to parse]; nested: JsonParseException[Unexpected character ('}' (code 125)): was expecting a colon to separate field name and value
+ at [Source: [B@3285ab43; line: 3, column: 37]];
+Caused by: SearchParseException[failed to parse search source [{
+   "query": {
+      "match_all": {"Lady Mandarin"}
+   }
+}
+]]; nested: QueryParsingException[Failed to parse]; nested: JsonParseException[Unexpected character ('}' (code 125)): was expecting a colon to separate field name and value
+ at [Source: [B@3285ab43; line: 3, column: 37]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:853)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:652)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:618)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:369)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: [.marvel-es-data] QueryParsingException[Failed to parse]; nested: JsonParseException[Unexpected character ('}' (code 125)): was expecting a colon to separate field name and value
+ at [Source: [B@3285ab43; line: 3, column: 37]];
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:208)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:201)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:836)
+	... 10 more
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting a colon to separate field name and value
+ at [Source: [B@3285ab43; line: 3, column: 37]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1581)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:533)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:462)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._skipColon2(UTF8StreamJsonParser.java:3006)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._skipColon(UTF8StreamJsonParser.java:2981)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:744)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:53)
+	at org.elasticsearch.index.query.MatchAllQueryParser.parse(MatchAllQueryParser.java:55)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:256)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:303)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:206)
+	... 13 more
+[2016-03-13 21:14:43,386][DEBUG][action.search.type       ] [Immortus] All shards failed for phase: [query]
+RemoteTransportException[[Immortus][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{
+   "query": {
+      "match_all": {"Lady Mandarin"}
+   }
+}
+]]; nested: QueryParsingException[Failed to parse]; nested: JsonParseException[Unexpected character ('}' (code 125)): was expecting a colon to separate field name and value
+ at [Source: [B@3285ab43; line: 3, column: 37]];
+Caused by: SearchParseException[failed to parse search source [{
+   "query": {
+      "match_all": {"Lady Mandarin"}
+   }
+}
+]]; nested: QueryParsingException[Failed to parse]; nested: JsonParseException[Unexpected character ('}' (code 125)): was expecting a colon to separate field name and value
+ at [Source: [B@3285ab43; line: 3, column: 37]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:853)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:652)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:618)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:369)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: [.marvel-es-data] QueryParsingException[Failed to parse]; nested: JsonParseException[Unexpected character ('}' (code 125)): was expecting a colon to separate field name and value
+ at [Source: [B@3285ab43; line: 3, column: 37]];
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:208)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:201)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:836)
+	... 10 more
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting a colon to separate field name and value
+ at [Source: [B@3285ab43; line: 3, column: 37]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1581)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:533)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:462)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._skipColon2(UTF8StreamJsonParser.java:3006)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._skipColon(UTF8StreamJsonParser.java:2981)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:744)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:53)
+	at org.elasticsearch.index.query.MatchAllQueryParser.parse(MatchAllQueryParser.java:55)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:256)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:303)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:206)
+	... 13 more
+[2016-03-13 21:14:43,454][INFO ][rest.suppressed          ] /_search Params: {}
+Failed to execute phase [query], all shards failed; shardFailures {[LaAY-K3XTyytltyK6o_-Qw][.kibana][0]: RemoteTransportException[[Immortus][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{
+   "query": {
+      "match_all": {"Lady Mandarin"}
+   }
+}
+]]; nested: QueryParsingException[Failed to parse]; nested: JsonParseException[Unexpected character ('}' (code 125)): was expecting a colon to separate field name and value
+ at [Source: [B@3285ab43; line: 3, column: 37]]; }{[LaAY-K3XTyytltyK6o_-Qw][.marvel-es-2016.03.13][0]: RemoteTransportException[[Immortus][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{
+   "query": {
+      "match_all": {"Lady Mandarin"}
+   }
+}
+]]; nested: QueryParsingException[Failed to parse]; nested: JsonParseException[Unexpected character ('}' (code 125)): was expecting a colon to separate field name and value
+ at [Source: [B@3285ab43; line: 3, column: 37]]; }{[LaAY-K3XTyytltyK6o_-Qw][.marvel-es-data][0]: RemoteTransportException[[Immortus][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{
+   "query": {
+      "match_all": {"Lady Mandarin"}
+   }
+}
+]]; nested: QueryParsingException[Failed to parse]; nested: JsonParseException[Unexpected character ('}' (code 125)): was expecting a colon to separate field name and value
+ at [Source: [B@3285ab43; line: 3, column: 37]]; }
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.onFirstPhaseResult(TransportSearchTypeAction.java:228)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$1.onFailure(TransportSearchTypeAction.java:174)
+	at org.elasticsearch.action.ActionListenerResponseHandler.handleException(ActionListenerResponseHandler.java:46)
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.processException(TransportService.java:821)
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.sendResponse(TransportService.java:799)
+	at org.elasticsearch.transport.TransportService$4.onFailure(TransportService.java:361)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: [.kibana] QueryParsingException[Failed to parse]; nested: JsonParseException[Unexpected character ('}' (code 125)): was expecting a colon to separate field name and value
+ at [Source: [B@3285ab43; line: 3, column: 37]];
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:208)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:201)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:836)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:652)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:618)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:369)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	... 3 more
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting a colon to separate field name and value
+ at [Source: [B@3285ab43; line: 3, column: 37]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1581)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:533)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:462)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._skipColon2(UTF8StreamJsonParser.java:3006)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._skipColon(UTF8StreamJsonParser.java:2981)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:744)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:53)
+	at org.elasticsearch.index.query.MatchAllQueryParser.parse(MatchAllQueryParser.java:55)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:256)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:303)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:206)
+	... 13 more
+[2016-03-13 21:22:10,174][INFO ][rest.suppressed          ] /my_index Params: {index=my_index}
+[my_index] IndexNotFoundException[no such index]
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver$WildcardExpressionResolver.resolve(IndexNameExpressionResolver.java:586)
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteIndices(IndexNameExpressionResolver.java:133)
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteIndices(IndexNameExpressionResolver.java:77)
+	at org.elasticsearch.action.admin.indices.delete.TransportDeleteIndexAction.checkBlock(TransportDeleteIndexAction.java:74)
+	at org.elasticsearch.action.admin.indices.delete.TransportDeleteIndexAction.checkBlock(TransportDeleteIndexAction.java:41)
+	at org.elasticsearch.action.support.master.TransportMasterNodeAction$AsyncSingleAction.doStart(TransportMasterNodeAction.java:129)
+	at org.elasticsearch.action.support.master.TransportMasterNodeAction$AsyncSingleAction.start(TransportMasterNodeAction.java:121)
+	at org.elasticsearch.action.support.master.TransportMasterNodeAction.doExecute(TransportMasterNodeAction.java:93)
+	at org.elasticsearch.action.admin.indices.delete.TransportDeleteIndexAction.doExecute(TransportDeleteIndexAction.java:69)
+	at org.elasticsearch.action.admin.indices.delete.TransportDeleteIndexAction.doExecute(TransportDeleteIndexAction.java:41)
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:70)
+	at org.elasticsearch.client.node.NodeClient.doExecute(NodeClient.java:58)
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:351)
+	at org.elasticsearch.client.FilterClient.doExecute(FilterClient.java:52)
+	at org.elasticsearch.rest.BaseRestHandler$HeadersAndContextCopyClient.doExecute(BaseRestHandler.java:83)
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:351)
+	at org.elasticsearch.client.support.AbstractClient$IndicesAdmin.execute(AbstractClient.java:1187)
+	at org.elasticsearch.client.support.AbstractClient$IndicesAdmin.delete(AbstractClient.java:1327)
+	at org.elasticsearch.rest.action.admin.indices.delete.RestDeleteIndexAction.handleRequest(RestDeleteIndexAction.java:50)
+	at org.elasticsearch.rest.BaseRestHandler.handleRequest(BaseRestHandler.java:54)
+	at org.elasticsearch.rest.RestController.executeHandler(RestController.java:207)
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:166)
+	at org.elasticsearch.http.HttpServer.internalDispatchRequest(HttpServer.java:128)
+	at org.elasticsearch.http.HttpServer$Dispatcher.dispatchRequest(HttpServer.java:86)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.dispatchRequest(NettyHttpServerTransport.java:363)
+	at org.elasticsearch.http.netty.HttpRequestHandler.messageReceived(HttpRequestHandler.java:63)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.http.netty.pipelining.HttpPipeliningHandler.messageReceived(HttpPipeliningHandler.java:60)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleUpstream(SimpleChannelHandler.java:88)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpChunkAggregator.messageReceived(HttpChunkAggregator.java:145)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpContentDecoder.messageReceived(HttpContentDecoder.java:108)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:459)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.callDecode(ReplayingDecoder.java:536)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.messageReceived(ReplayingDecoder.java:435)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:75)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-03-13 21:22:29,638][INFO ][cluster.metadata         ] [Immortus] [my_index] creating index, cause [api], templates [], shards [1]/[1], mappings []
+[2016-03-13 21:22:29,833][INFO ][cluster.routing.allocation] [Immortus] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[my_index][0]] ...]).
+[2016-03-13 21:22:54,916][INFO ][cluster.metadata         ] [Immortus] [my_index] create_mapping [my_type]
+[2016-03-13 21:34:03,162][INFO ][node                     ] [Immortus] stopping ...
+[2016-03-13 21:34:03,960][INFO ][node                     ] [Immortus] stopped
+[2016-03-13 21:34:03,962][INFO ][node                     ] [Immortus] closing ...
+[2016-03-13 21:34:03,967][INFO ][node                     ] [Immortus] closed
+[2016-03-13 23:01:31,170][INFO ][node                     ] [Samuel Silke] version[2.2.0], pid[6936], build[8ff36d1/2016-01-27T13:32:39Z]
+[2016-03-13 23:01:31,173][INFO ][node                     ] [Samuel Silke] initializing ...
+[2016-03-13 23:01:31,923][INFO ][plugins                  ] [Samuel Silke] modules [lang-expression, lang-groovy], plugins [license, marvel-agent], sites []
+[2016-03-13 23:01:31,988][INFO ][env                      ] [Samuel Silke] using [1] data paths, mounts [[Windows (C:)]], net usable_space [335.6gb], net total_space [516.5gb], spins? [unknown], types [NTFS]
+[2016-03-13 23:01:31,992][INFO ][env                      ] [Samuel Silke] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-03-13 23:01:34,315][INFO ][node                     ] [Samuel Silke] initialized
+[2016-03-13 23:01:34,316][INFO ][node                     ] [Samuel Silke] starting ...
+[2016-03-13 23:01:34,659][INFO ][transport                ] [Samuel Silke] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-03-13 23:01:34,668][INFO ][discovery                ] [Samuel Silke] elasticsearch/KLQFpRZDS_aOE5RfRsj5Yg
+[2016-03-13 23:01:38,708][INFO ][cluster.service          ] [Samuel Silke] new_master {Samuel Silke}{KLQFpRZDS_aOE5RfRsj5Yg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-03-13 23:01:38,928][INFO ][http                     ] [Samuel Silke] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-03-13 23:01:38,930][INFO ][node                     ] [Samuel Silke] started
+[2016-03-13 23:01:39,047][INFO ][license.plugin.core      ] [Samuel Silke] license [e553a35c-d414-42dd-a0ca-b223abde3239] - valid
+[2016-03-13 23:01:39,051][ERROR][license.plugin.core      ] [Samuel Silke] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-03-13 23:01:39,203][INFO ][gateway                  ] [Samuel Silke] recovered [4] indices into cluster_state
+[2016-03-13 23:01:39,804][INFO ][cluster.routing.allocation] [Samuel Silke] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.marvel-es-2016.03.13][0], [my_index][0], [.marvel-es-data][0], [.kibana][0]] ...]).

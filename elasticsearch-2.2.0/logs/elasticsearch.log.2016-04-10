@@ -1,0 +1,757 @@
+[2016-04-10 00:01:50,524][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 00:11:50,594][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 00:21:50,614][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 00:31:50,627][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 00:41:50,646][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 00:51:50,666][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 01:01:50,684][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 01:11:50,698][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 01:21:50,718][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 01:31:50,745][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 01:41:50,764][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 01:51:50,769][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 02:01:50,775][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 02:11:50,790][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 10:42:14,519][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 10:42:22,213][INFO ][cluster.metadata         ] [Isis] [.marvel-es-2016.04.10] creating index, cause [auto(bulk api)], templates [.marvel-es], shards [1]/[1], mappings [shards, _default_, node, index_stats, nodes, index_recovery, cluster_state, cluster_info, cluster_stats, indices_stats, node_stats]
+[2016-04-10 10:42:24,850][INFO ][cluster.routing.allocation] [Isis] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.marvel-es-2016.04.10][0]] ...]).
+[2016-04-10 10:42:25,416][INFO ][cluster.metadata         ] [Isis] [.marvel-es-2016.04.10] update_mapping [indices_stats]
+[2016-04-10 10:42:25,843][INFO ][cluster.metadata         ] [Isis] [.marvel-es-2016.04.10] update_mapping [cluster_stats]
+[2016-04-10 10:42:26,161][INFO ][cluster.metadata         ] [Isis] [.marvel-es-2016.04.10] update_mapping [node_stats]
+[2016-04-10 10:52:15,009][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 11:02:15,016][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 11:12:15,028][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 11:22:15,035][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 11:32:15,047][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 11:42:15,063][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 11:52:15,084][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 12:02:15,100][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 12:12:15,112][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 12:22:15,132][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 12:32:15,152][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 12:42:15,160][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 12:52:15,171][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 13:02:15,192][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 13:12:15,212][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 13:22:15,231][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 13:32:15,244][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 13:42:15,263][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 13:52:15,283][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 14:02:15,303][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 14:12:15,323][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 14:22:15,342][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 14:32:15,355][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 14:42:15,374][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 14:52:15,392][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 15:02:15,412][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 15:12:15,432][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 15:22:15,447][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 15:32:15,467][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 15:42:15,486][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 15:52:15,505][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 16:02:15,518][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 16:12:15,537][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 16:22:15,556][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 16:32:15,576][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 16:42:15,585][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 16:52:15,604][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 17:02:15,623][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 17:12:15,642][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 17:22:15,662][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 17:32:15,681][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 17:42:15,701][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 17:52:15,711][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 18:02:15,720][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 18:12:15,733][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 18:22:15,751][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 18:32:15,770][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 18:42:15,781][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 18:52:15,795][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 19:02:15,815][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 19:12:15,835][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 19:22:15,854][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 19:32:15,874][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 19:42:15,896][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 19:52:15,918][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 20:02:15,928][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 20:12:15,938][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 20:22:15,952][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 20:32:15,971][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 20:42:15,983][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 20:52:15,991][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 21:02:16,013][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 21:12:16,032][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 21:22:16,043][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 21:32:16,055][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 21:42:16,061][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 21:52:16,067][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 22:02:16,077][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 22:12:16,091][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 22:22:16,106][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 22:32:16,121][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 22:42:16,140][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 22:52:16,145][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 23:02:16,164][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 23:12:16,179][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 23:22:16,184][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 23:32:16,202][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 23:42:16,215][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-10 23:52:16,235][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics

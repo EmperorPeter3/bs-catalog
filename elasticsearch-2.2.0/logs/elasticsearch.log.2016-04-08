@@ -1,0 +1,351 @@
+[2016-04-08 20:03:48,264][INFO ][node                     ] [Unus the Untouchable] version[2.2.0], pid[10140], build[8ff36d1/2016-01-27T13:32:39Z]
+[2016-04-08 20:03:48,275][INFO ][node                     ] [Unus the Untouchable] initializing ...
+[2016-04-08 20:03:49,299][INFO ][plugins                  ] [Unus the Untouchable] modules [lang-expression, lang-groovy], plugins [license, marvel-agent], sites []
+[2016-04-08 20:03:49,347][INFO ][env                      ] [Unus the Untouchable] using [1] data paths, mounts [[Windows (C:)]], net usable_space [304.7gb], net total_space [516.5gb], spins? [unknown], types [NTFS]
+[2016-04-08 20:03:49,350][INFO ][env                      ] [Unus the Untouchable] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-04-08 20:03:51,557][INFO ][node                     ] [Unus the Untouchable] initialized
+[2016-04-08 20:03:51,559][INFO ][node                     ] [Unus the Untouchable] starting ...
+[2016-04-08 20:03:51,884][INFO ][transport                ] [Unus the Untouchable] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-04-08 20:03:51,884][INFO ][discovery                ] [Unus the Untouchable] elasticsearch/Chhy_0U1SteUwo0xESgFcQ
+[2016-04-08 20:03:55,991][INFO ][cluster.service          ] [Unus the Untouchable] new_master {Unus the Untouchable}{Chhy_0U1SteUwo0xESgFcQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-08 20:03:56,167][INFO ][http                     ] [Unus the Untouchable] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-04-08 20:03:56,170][INFO ][node                     ] [Unus the Untouchable] started
+[2016-04-08 20:03:56,955][INFO ][license.plugin.core      ] [Unus the Untouchable] license [e553a35c-d414-42dd-a0ca-b223abde3239] - valid
+[2016-04-08 20:03:56,955][ERROR][license.plugin.core      ] [Unus the Untouchable] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-08 20:03:57,425][INFO ][gateway                  ] [Unus the Untouchable] recovered [11] indices into cluster_state
+[2016-04-08 20:04:03,093][INFO ][cluster.metadata         ] [Unus the Untouchable] [.marvel-es-2016.04.08] creating index, cause [auto(bulk api)], templates [.marvel-es], shards [1]/[1], mappings [shards, node, _default_, index_stats, nodes, index_recovery, cluster_state, cluster_info, cluster_stats, node_stats, indices_stats]
+[2016-04-08 20:04:03,673][INFO ][cluster.routing.allocation] [Unus the Untouchable] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.marvel-es-2016.04.08][0]] ...]).
+[2016-04-08 20:04:03,835][INFO ][cluster.metadata         ] [Unus the Untouchable] [.marvel-es-2016.04.08] update_mapping [cluster_stats]
+[2016-04-08 20:04:04,004][INFO ][cluster.metadata         ] [Unus the Untouchable] [.marvel-es-2016.04.08] update_mapping [node_stats]
+[2016-04-08 20:04:04,079][INFO ][cluster.metadata         ] [Unus the Untouchable] [.marvel-es-2016.04.08] update_mapping [indices_stats]
+[2016-04-08 20:07:33,115][INFO ][rest.suppressed          ] /manufactures/ Params: {index=manufactures}
+ElasticsearchParseException[failed to parse source for create index]; nested: JsonParseException[Unexpected character ('{' (code 123)): was expecting a colon to separate field name and value
+ at [Source: [B@290616e2; line: 10, column: 20]];
+	at org.elasticsearch.action.admin.indices.create.CreateIndexRequest.source(CreateIndexRequest.java:370)
+	at org.elasticsearch.rest.action.admin.indices.create.RestCreateIndexAction.handleRequest(RestCreateIndexAction.java:47)
+	at org.elasticsearch.rest.BaseRestHandler.handleRequest(BaseRestHandler.java:54)
+	at org.elasticsearch.rest.RestController.executeHandler(RestController.java:207)
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:166)
+	at org.elasticsearch.http.HttpServer.internalDispatchRequest(HttpServer.java:128)
+	at org.elasticsearch.http.HttpServer$Dispatcher.dispatchRequest(HttpServer.java:86)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.dispatchRequest(NettyHttpServerTransport.java:363)
+	at org.elasticsearch.http.netty.HttpRequestHandler.messageReceived(HttpRequestHandler.java:63)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.http.netty.pipelining.HttpPipeliningHandler.messageReceived(HttpPipeliningHandler.java:60)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleUpstream(SimpleChannelHandler.java:88)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpChunkAggregator.messageReceived(HttpChunkAggregator.java:145)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpContentDecoder.messageReceived(HttpContentDecoder.java:108)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:459)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.callDecode(ReplayingDecoder.java:536)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.messageReceived(ReplayingDecoder.java:435)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:75)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unexpected character ('{' (code 123)): was expecting a colon to separate field name and value
+ at [Source: [B@290616e2; line: 10, column: 20]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1581)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:533)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:462)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._skipColon2(UTF8StreamJsonParser.java:3006)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._skipColon(UTF8StreamJsonParser.java:2981)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:744)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:53)
+	at org.elasticsearch.common.xcontent.support.AbstractXContentParser.readMap(AbstractXContentParser.java:269)
+	at org.elasticsearch.common.xcontent.support.AbstractXContentParser.readValue(AbstractXContentParser.java:314)
+	at org.elasticsearch.common.xcontent.support.AbstractXContentParser.readMap(AbstractXContentParser.java:274)
+	at org.elasticsearch.common.xcontent.support.AbstractXContentParser.readValue(AbstractXContentParser.java:314)
+	at org.elasticsearch.common.xcontent.support.AbstractXContentParser.readMap(AbstractXContentParser.java:274)
+	at org.elasticsearch.common.xcontent.support.AbstractXContentParser.readValue(AbstractXContentParser.java:314)
+	at org.elasticsearch.common.xcontent.support.AbstractXContentParser.readMap(AbstractXContentParser.java:274)
+	at org.elasticsearch.common.xcontent.support.AbstractXContentParser.readMap(AbstractXContentParser.java:245)
+	at org.elasticsearch.common.xcontent.support.AbstractXContentParser.map(AbstractXContentParser.java:208)
+	at org.elasticsearch.action.admin.indices.create.CreateIndexRequest.source(CreateIndexRequest.java:368)
+	... 45 more
+[2016-04-08 20:08:02,573][INFO ][rest.suppressed          ] /manufactures/ Params: {index=manufactures}
+ElasticsearchParseException[failed to parse source for create index]; nested: JsonParseException[Unexpected character ('{' (code 123)): was expecting a colon to separate field name and value
+ at [Source: [B@68aa73ff; line: 11, column: 30]];
+	at org.elasticsearch.action.admin.indices.create.CreateIndexRequest.source(CreateIndexRequest.java:370)
+	at org.elasticsearch.rest.action.admin.indices.create.RestCreateIndexAction.handleRequest(RestCreateIndexAction.java:47)
+	at org.elasticsearch.rest.BaseRestHandler.handleRequest(BaseRestHandler.java:54)
+	at org.elasticsearch.rest.RestController.executeHandler(RestController.java:207)
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:166)
+	at org.elasticsearch.http.HttpServer.internalDispatchRequest(HttpServer.java:128)
+	at org.elasticsearch.http.HttpServer$Dispatcher.dispatchRequest(HttpServer.java:86)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.dispatchRequest(NettyHttpServerTransport.java:363)
+	at org.elasticsearch.http.netty.HttpRequestHandler.messageReceived(HttpRequestHandler.java:63)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.http.netty.pipelining.HttpPipeliningHandler.messageReceived(HttpPipeliningHandler.java:60)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleUpstream(SimpleChannelHandler.java:88)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpChunkAggregator.messageReceived(HttpChunkAggregator.java:145)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpContentDecoder.messageReceived(HttpContentDecoder.java:108)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:459)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.callDecode(ReplayingDecoder.java:536)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.messageReceived(ReplayingDecoder.java:435)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:75)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unexpected character ('{' (code 123)): was expecting a colon to separate field name and value
+ at [Source: [B@68aa73ff; line: 11, column: 30]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1581)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:533)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:462)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._skipColon2(UTF8StreamJsonParser.java:3006)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._skipColon(UTF8StreamJsonParser.java:2981)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:744)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:53)
+	at org.elasticsearch.common.xcontent.support.AbstractXContentParser.readMap(AbstractXContentParser.java:269)
+	at org.elasticsearch.common.xcontent.support.AbstractXContentParser.readValue(AbstractXContentParser.java:314)
+	at org.elasticsearch.common.xcontent.support.AbstractXContentParser.readMap(AbstractXContentParser.java:274)
+	at org.elasticsearch.common.xcontent.support.AbstractXContentParser.readValue(AbstractXContentParser.java:314)
+	at org.elasticsearch.common.xcontent.support.AbstractXContentParser.readMap(AbstractXContentParser.java:274)
+	at org.elasticsearch.common.xcontent.support.AbstractXContentParser.readValue(AbstractXContentParser.java:314)
+	at org.elasticsearch.common.xcontent.support.AbstractXContentParser.readMap(AbstractXContentParser.java:274)
+	at org.elasticsearch.common.xcontent.support.AbstractXContentParser.readMap(AbstractXContentParser.java:245)
+	at org.elasticsearch.common.xcontent.support.AbstractXContentParser.map(AbstractXContentParser.java:208)
+	at org.elasticsearch.action.admin.indices.create.CreateIndexRequest.source(CreateIndexRequest.java:368)
+	... 45 more
+[2016-04-08 20:08:20,699][INFO ][cluster.metadata         ] [Unus the Untouchable] [manufactures] creating index, cause [api], templates [], shards [5]/[1], mappings [manufacture]
+[2016-04-08 20:08:21,333][INFO ][cluster.routing.allocation] [Unus the Untouchable] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[manufactures][4]] ...]).
+[2016-04-08 20:13:56,967][ERROR][license.plugin.core      ] [Unus the Untouchable] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-08 20:23:56,969][ERROR][license.plugin.core      ] [Unus the Untouchable] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-08 20:33:56,973][ERROR][license.plugin.core      ] [Unus the Untouchable] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-08 20:43:56,975][ERROR][license.plugin.core      ] [Unus the Untouchable] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-08 20:53:56,978][ERROR][license.plugin.core      ] [Unus the Untouchable] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-08 21:03:56,981][ERROR][license.plugin.core      ] [Unus the Untouchable] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-08 21:13:56,986][ERROR][license.plugin.core      ] [Unus the Untouchable] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-08 21:23:56,995][ERROR][license.plugin.core      ] [Unus the Untouchable] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-08 21:33:57,003][ERROR][license.plugin.core      ] [Unus the Untouchable] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-08 21:43:57,007][ERROR][license.plugin.core      ] [Unus the Untouchable] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-08 21:53:57,015][ERROR][license.plugin.core      ] [Unus the Untouchable] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-08 22:03:57,037][ERROR][license.plugin.core      ] [Unus the Untouchable] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-08 22:13:57,058][ERROR][license.plugin.core      ] [Unus the Untouchable] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-08 22:23:57,065][ERROR][license.plugin.core      ] [Unus the Untouchable] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-08 22:33:57,078][ERROR][license.plugin.core      ] [Unus the Untouchable] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-08 22:43:57,091][ERROR][license.plugin.core      ] [Unus the Untouchable] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-08 22:53:57,122][ERROR][license.plugin.core      ] [Unus the Untouchable] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-08 23:03:57,143][ERROR][license.plugin.core      ] [Unus the Untouchable] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-08 23:13:57,149][ERROR][license.plugin.core      ] [Unus the Untouchable] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-08 23:23:57,157][ERROR][license.plugin.core      ] [Unus the Untouchable] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-08 23:33:57,179][ERROR][license.plugin.core      ] [Unus the Untouchable] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-08 23:43:57,185][ERROR][license.plugin.core      ] [Unus the Untouchable] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-08 23:53:57,207][ERROR][license.plugin.core      ] [Unus the Untouchable] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics

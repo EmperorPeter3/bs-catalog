@@ -1,0 +1,50 @@
+-------------Readable version--------------
+
+curl -XPUT http://localhost:9200/manufactures -d 
+'{
+"mappings":{
+	"manufacture":{
+		"properties":{
+			"manufacture_name":{"type":"string", "index":"not_analyzed"},
+			"company_name":{"type":"string"},
+			"company_address":{"type":"string", "index":"not_analyzed"},
+			"company_director":{"type":"string", "index":"not_analyzed"},
+			"director_phone":{"type":"integer", "index":"not_analyzed"},
+			"director_mail":{"type":"string", "index":"not_analyzed"},
+			"additional_contact_name":{"type":"string", "index":"not_analyzed"},
+			"additional_contact_phone":{"type":"integer", "index":"not_analyzed"},
+			"company_site":{"type":"string", "index":"not_analyzed"},
+			"company_description":{"type":"string"}
+			}
+		}
+	}
+}';
+
+-------------Console version--------------
+
+curl -XPUT http://localhost:9200/manufactures -d '{"mappings":{"manufacture":{"properties":{"manufacture_name":{"type":"string"},"company_name":{"type":"string", "index":"not_analyzed"},"company_address":{"type":"string", "index":"not_analyzed"},"company_director":{"type":"string", "index":"not_analyzed"},"director_phone":{"type":"integer", "index":"not_analyzed"},"director_mail":{"type":"string", "index":"not_analyzed"},"additional_contact_name":{"type":"string", "index":"not_analyzed"},"additional_contact_phone":{"type":"integer", "index":"not_analyzed"},"company_site":{"type":"string", "index":"not_analyzed"},"company_description":{"type":"string"}}}}}';
+
+
+-------------Postman version--------------
+PUT (raw)
+
+http://localhost:9200/manufactures
+
+{
+"mappings":{
+	"manufacture":{
+		"properties":{
+			"manufacture_name":{"type":"string", "index":"not_analyzed"},
+			"company_name":{"type":"string"},
+			"company_address":{"type":"string", "index":"not_analyzed"},
+			"company_director":{"type":"string", "index":"not_analyzed"},
+			"director_phone":{"type":"integer", "index":"not_analyzed"},
+			"director_mail":{"type":"string", "index":"not_analyzed"},
+			"additional_contact_name":{"type":"string", "index":"not_analyzed"},
+			"additional_contact_phone":{"type":"integer", "index":"not_analyzed"},
+			"company_site":{"type":"string", "index":"not_analyzed"},
+			"company_description":{"type":"string"}
+			}
+		}
+	}
+}

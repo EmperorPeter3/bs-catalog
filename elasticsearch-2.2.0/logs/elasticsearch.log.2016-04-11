@@ -1,0 +1,970 @@
+[2016-04-11 00:02:16,248][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 00:12:16,290][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 18:28:22,633][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 18:28:31,518][INFO ][cluster.metadata         ] [Isis] [.marvel-es-2016.04.11] creating index, cause [auto(bulk api)], templates [.marvel-es], shards [1]/[1], mappings [shards, _default_, node, index_stats, nodes, index_recovery, cluster_state, cluster_info, cluster_stats, indices_stats, node_stats]
+[2016-04-11 18:28:34,333][INFO ][cluster.routing.allocation] [Isis] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.marvel-es-2016.04.11][0]] ...]).
+[2016-04-11 18:28:34,951][INFO ][cluster.metadata         ] [Isis] [.marvel-es-2016.04.11] update_mapping [indices_stats]
+[2016-04-11 18:28:35,349][INFO ][cluster.metadata         ] [Isis] [.marvel-es-2016.04.11] update_mapping [cluster_stats]
+[2016-04-11 18:28:35,573][INFO ][cluster.metadata         ] [Isis] [.marvel-es-2016.04.11] update_mapping [node_stats]
+[2016-04-11 18:38:27,530][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 18:48:27,549][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 18:58:27,569][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 19:08:27,574][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 19:18:27,583][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 19:28:27,604][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 19:38:27,622][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 19:48:27,641][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 19:58:27,654][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 20:08:27,660][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 20:18:27,684][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 20:28:27,689][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 20:38:27,703][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 20:48:27,722][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 20:58:27,743][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 21:08:27,752][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 21:13:14,822][DEBUG][action.index             ] [Isis] failed to execute [index {[manufactures][manufacture][AVQGhw2NgroDINMsJ3Ms], source[_na_]}] on [[manufactures][2]]
+MapperParsingException[failed to parse, document is empty]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseDocument(DocumentParser.java:160)
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:79)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:304)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreate(IndexShard.java:500)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreateOnPrimary(IndexShard.java:481)
+	at org.elasticsearch.action.index.TransportIndexAction.prepareIndexOperationOnPrimary(TransportIndexAction.java:214)
+	at org.elasticsearch.action.index.TransportIndexAction.executeIndexRequestOnPrimary(TransportIndexAction.java:223)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:157)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:65)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryPhase.doRun(TransportReplicationAction.java:595)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:263)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:260)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-11 21:13:14,912][INFO ][rest.suppressed          ] /manufactures/manufacture/ Params: {index=manufactures, type=manufacture}
+RemoteTransportException[[Isis][127.0.0.1:9300][indices:data/write/index[p]]]; nested: MapperParsingException[failed to parse, document is empty];
+Caused by: MapperParsingException[failed to parse, document is empty]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseDocument(DocumentParser.java:160)
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:79)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:304)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreate(IndexShard.java:500)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreateOnPrimary(IndexShard.java:481)
+	at org.elasticsearch.action.index.TransportIndexAction.prepareIndexOperationOnPrimary(TransportIndexAction.java:214)
+	at org.elasticsearch.action.index.TransportIndexAction.executeIndexRequestOnPrimary(TransportIndexAction.java:223)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:157)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:65)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryPhase.doRun(TransportReplicationAction.java:595)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:263)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:260)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-11 21:13:23,257][DEBUG][action.index             ] [Isis] failed to execute [index {[manufactures][manufacture][AVQGhy64groDINMsJ3ND], source[_na_]}] on [[manufactures][1]]
+MapperParsingException[failed to parse, document is empty]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseDocument(DocumentParser.java:160)
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:79)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:304)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreate(IndexShard.java:500)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreateOnPrimary(IndexShard.java:481)
+	at org.elasticsearch.action.index.TransportIndexAction.prepareIndexOperationOnPrimary(TransportIndexAction.java:214)
+	at org.elasticsearch.action.index.TransportIndexAction.executeIndexRequestOnPrimary(TransportIndexAction.java:223)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:157)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:65)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryPhase.doRun(TransportReplicationAction.java:595)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:263)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:260)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-11 21:13:23,294][INFO ][rest.suppressed          ] /manufactures/manufacture/ Params: {index=manufactures, type=manufacture}
+RemoteTransportException[[Isis][127.0.0.1:9300][indices:data/write/index[p]]]; nested: MapperParsingException[failed to parse, document is empty];
+Caused by: MapperParsingException[failed to parse, document is empty]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseDocument(DocumentParser.java:160)
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:79)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:304)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreate(IndexShard.java:500)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreateOnPrimary(IndexShard.java:481)
+	at org.elasticsearch.action.index.TransportIndexAction.prepareIndexOperationOnPrimary(TransportIndexAction.java:214)
+	at org.elasticsearch.action.index.TransportIndexAction.executeIndexRequestOnPrimary(TransportIndexAction.java:223)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:157)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:65)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryPhase.doRun(TransportReplicationAction.java:595)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:263)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:260)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-11 21:14:48,748][DEBUG][action.index             ] [Isis] failed to execute [index {[manufactures][manufacture][AVQGiHyrgroDINMsJ3P0], source[_na_]}] on [[manufactures][0]]
+MapperParsingException[failed to parse, document is empty]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseDocument(DocumentParser.java:160)
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:79)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:304)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreate(IndexShard.java:500)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreateOnPrimary(IndexShard.java:481)
+	at org.elasticsearch.action.index.TransportIndexAction.prepareIndexOperationOnPrimary(TransportIndexAction.java:214)
+	at org.elasticsearch.action.index.TransportIndexAction.executeIndexRequestOnPrimary(TransportIndexAction.java:223)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:157)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:65)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryPhase.doRun(TransportReplicationAction.java:595)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:263)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:260)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-11 21:14:48,790][INFO ][rest.suppressed          ] /manufactures/manufacture/ Params: {index=manufactures, type=manufacture}
+RemoteTransportException[[Isis][127.0.0.1:9300][indices:data/write/index[p]]]; nested: MapperParsingException[failed to parse, document is empty];
+Caused by: MapperParsingException[failed to parse, document is empty]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseDocument(DocumentParser.java:160)
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:79)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:304)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreate(IndexShard.java:500)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreateOnPrimary(IndexShard.java:481)
+	at org.elasticsearch.action.index.TransportIndexAction.prepareIndexOperationOnPrimary(TransportIndexAction.java:214)
+	at org.elasticsearch.action.index.TransportIndexAction.executeIndexRequestOnPrimary(TransportIndexAction.java:223)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:157)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:65)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryPhase.doRun(TransportReplicationAction.java:595)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:263)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:260)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-11 21:17:23,434][DEBUG][action.index             ] [Isis] failed to execute [index {[manufactures][manufacture][AVQGitjpgroDINMsJ3U_], source[_na_]}] on [[manufactures][2]]
+MapperParsingException[failed to parse, document is empty]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseDocument(DocumentParser.java:160)
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:79)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:304)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreate(IndexShard.java:500)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreateOnPrimary(IndexShard.java:481)
+	at org.elasticsearch.action.index.TransportIndexAction.prepareIndexOperationOnPrimary(TransportIndexAction.java:214)
+	at org.elasticsearch.action.index.TransportIndexAction.executeIndexRequestOnPrimary(TransportIndexAction.java:223)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:157)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:65)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryPhase.doRun(TransportReplicationAction.java:595)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:263)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:260)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-11 21:17:23,476][INFO ][rest.suppressed          ] /manufactures/manufacture/ Params: {index=manufactures, type=manufacture}
+RemoteTransportException[[Isis][127.0.0.1:9300][indices:data/write/index[p]]]; nested: MapperParsingException[failed to parse, document is empty];
+Caused by: MapperParsingException[failed to parse, document is empty]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseDocument(DocumentParser.java:160)
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:79)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:304)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreate(IndexShard.java:500)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreateOnPrimary(IndexShard.java:481)
+	at org.elasticsearch.action.index.TransportIndexAction.prepareIndexOperationOnPrimary(TransportIndexAction.java:214)
+	at org.elasticsearch.action.index.TransportIndexAction.executeIndexRequestOnPrimary(TransportIndexAction.java:223)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:157)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:65)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryPhase.doRun(TransportReplicationAction.java:595)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:263)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:260)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-11 21:18:16,484][INFO ][node                     ] [Challenger] version[2.2.0], pid[16104], build[8ff36d1/2016-01-27T13:32:39Z]
+[2016-04-11 21:18:16,486][INFO ][node                     ] [Challenger] initializing ...
+[2016-04-11 21:18:17,195][INFO ][plugins                  ] [Challenger] modules [lang-expression, lang-groovy], plugins [license, marvel-agent], sites []
+[2016-04-11 21:18:17,226][INFO ][env                      ] [Challenger] using [1] data paths, mounts [[Windows (C:)]], net usable_space [303.9gb], net total_space [516.5gb], spins? [unknown], types [NTFS]
+[2016-04-11 21:18:17,229][INFO ][env                      ] [Challenger] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-04-11 21:18:19,058][INFO ][node                     ] [Challenger] initialized
+[2016-04-11 21:18:19,060][INFO ][node                     ] [Challenger] starting ...
+[2016-04-11 21:18:19,320][INFO ][transport                ] [Challenger] publish_address {127.0.0.1:9301}, bound_addresses {127.0.0.1:9301}, {[::1]:9301}
+[2016-04-11 21:18:19,343][INFO ][discovery                ] [Challenger] elasticsearch/HKxCW_sWT0eeBQrR30y8pQ
+[2016-04-11 21:18:23,279][DEBUG][action.index             ] [Isis] failed to execute [index {[manufactures][manufacture][AVQGi8KugroDINMsJ3XE], source[_na_]}] on [[manufactures][2]]
+MapperParsingException[failed to parse, document is empty]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseDocument(DocumentParser.java:160)
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:79)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:304)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreate(IndexShard.java:500)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreateOnPrimary(IndexShard.java:481)
+	at org.elasticsearch.action.index.TransportIndexAction.prepareIndexOperationOnPrimary(TransportIndexAction.java:214)
+	at org.elasticsearch.action.index.TransportIndexAction.executeIndexRequestOnPrimary(TransportIndexAction.java:223)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:157)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:65)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryPhase.doRun(TransportReplicationAction.java:595)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:263)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:260)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-11 21:18:23,316][INFO ][rest.suppressed          ] /manufactures/manufacture/ Params: {index=manufactures, type=manufacture}
+RemoteTransportException[[Isis][127.0.0.1:9300][indices:data/write/index[p]]]; nested: MapperParsingException[failed to parse, document is empty];
+Caused by: MapperParsingException[failed to parse, document is empty]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseDocument(DocumentParser.java:160)
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:79)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:304)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreate(IndexShard.java:500)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreateOnPrimary(IndexShard.java:481)
+	at org.elasticsearch.action.index.TransportIndexAction.prepareIndexOperationOnPrimary(TransportIndexAction.java:214)
+	at org.elasticsearch.action.index.TransportIndexAction.executeIndexRequestOnPrimary(TransportIndexAction.java:223)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:157)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:65)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryPhase.doRun(TransportReplicationAction.java:595)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:263)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:260)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-11 21:18:23,429][INFO ][cluster.service          ] [Isis] added {{Challenger}{HKxCW_sWT0eeBQrR30y8pQ}{127.0.0.1}{127.0.0.1:9301},}, reason: zen-disco-join(join from node[{Challenger}{HKxCW_sWT0eeBQrR30y8pQ}{127.0.0.1}{127.0.0.1:9301}])
+[2016-04-11 21:18:23,448][INFO ][cluster.service          ] [Challenger] detected_master {Isis}{GJdGLW9RTmSlBWz1u4ge9A}{127.0.0.1}{127.0.0.1:9300}, added {{Isis}{GJdGLW9RTmSlBWz1u4ge9A}{127.0.0.1}{127.0.0.1:9300},}, reason: zen-disco-receive(from master [{Isis}{GJdGLW9RTmSlBWz1u4ge9A}{127.0.0.1}{127.0.0.1:9300}])
+[2016-04-11 21:18:23,984][INFO ][license.plugin.core      ] [Challenger] license [e553a35c-d414-42dd-a0ca-b223abde3239] - valid
+[2016-04-11 21:18:23,987][ERROR][license.plugin.core      ] [Challenger] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 21:18:25,229][INFO ][http                     ] [Challenger] publish_address {127.0.0.1:9201}, bound_addresses {127.0.0.1:9201}, {[::1]:9201}
+[2016-04-11 21:18:25,230][INFO ][node                     ] [Challenger] started
+[2016-04-11 21:18:27,784][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 21:19:21,042][INFO ][cluster.routing.allocation] [Isis] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[.marvel-es-data][0]] ...]).
+[2016-04-11 21:28:23,990][ERROR][license.plugin.core      ] [Challenger] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 21:28:27,791][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 21:38:23,994][ERROR][license.plugin.core      ] [Challenger] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 21:38:27,797][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 21:45:20,549][INFO ][rest.suppressed          ] /CHANGE_TO_INDEX/_search Params: {size=10, index=CHANGE_TO_INDEX, from=0}
+[CHANGE_TO_INDEX] IndexNotFoundException[no such index]
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver$WildcardExpressionResolver.resolve(IndexNameExpressionResolver.java:586)
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteIndices(IndexNameExpressionResolver.java:133)
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteIndices(IndexNameExpressionResolver.java:113)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.<init>(TransportSearchTypeAction.java:121)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.<init>(TransportSearchQueryThenFetchAction.java:73)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.<init>(TransportSearchQueryThenFetchAction.java:67)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction.doExecute(TransportSearchQueryThenFetchAction.java:64)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction.doExecute(TransportSearchQueryThenFetchAction.java:53)
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:70)
+	at org.elasticsearch.action.search.TransportSearchAction.doExecute(TransportSearchAction.java:99)
+	at org.elasticsearch.action.search.TransportSearchAction.doExecute(TransportSearchAction.java:44)
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:70)
+	at org.elasticsearch.client.node.NodeClient.doExecute(NodeClient.java:58)
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:351)
+	at org.elasticsearch.client.FilterClient.doExecute(FilterClient.java:52)
+	at org.elasticsearch.rest.BaseRestHandler$HeadersAndContextCopyClient.doExecute(BaseRestHandler.java:83)
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:351)
+	at org.elasticsearch.client.support.AbstractClient.search(AbstractClient.java:574)
+	at org.elasticsearch.rest.action.search.RestSearchAction.handleRequest(RestSearchAction.java:84)
+	at org.elasticsearch.rest.BaseRestHandler.handleRequest(BaseRestHandler.java:54)
+	at org.elasticsearch.rest.RestController.executeHandler(RestController.java:207)
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:166)
+	at org.elasticsearch.http.HttpServer.internalDispatchRequest(HttpServer.java:128)
+	at org.elasticsearch.http.HttpServer$Dispatcher.dispatchRequest(HttpServer.java:86)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.dispatchRequest(NettyHttpServerTransport.java:363)
+	at org.elasticsearch.http.netty.HttpRequestHandler.messageReceived(HttpRequestHandler.java:63)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.http.netty.pipelining.HttpPipeliningHandler.messageReceived(HttpPipeliningHandler.java:60)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleUpstream(SimpleChannelHandler.java:88)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpChunkAggregator.messageReceived(HttpChunkAggregator.java:145)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpContentDecoder.messageReceived(HttpContentDecoder.java:108)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:459)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.callDecode(ReplayingDecoder.java:536)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.messageReceived(ReplayingDecoder.java:435)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:75)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-11 21:48:23,998][ERROR][license.plugin.core      ] [Challenger] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 21:48:27,803][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 21:56:10,454][INFO ][rest.suppressed          ] /CHANGE_TO_INDEX/_search Params: {size=10, index=CHANGE_TO_INDEX, from=0}
+[CHANGE_TO_INDEX] IndexNotFoundException[no such index]
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver$WildcardExpressionResolver.resolve(IndexNameExpressionResolver.java:586)
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteIndices(IndexNameExpressionResolver.java:133)
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteIndices(IndexNameExpressionResolver.java:113)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.<init>(TransportSearchTypeAction.java:121)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.<init>(TransportSearchQueryThenFetchAction.java:73)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction$AsyncAction.<init>(TransportSearchQueryThenFetchAction.java:67)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction.doExecute(TransportSearchQueryThenFetchAction.java:64)
+	at org.elasticsearch.action.search.type.TransportSearchQueryThenFetchAction.doExecute(TransportSearchQueryThenFetchAction.java:53)
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:70)
+	at org.elasticsearch.action.search.TransportSearchAction.doExecute(TransportSearchAction.java:99)
+	at org.elasticsearch.action.search.TransportSearchAction.doExecute(TransportSearchAction.java:44)
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:70)
+	at org.elasticsearch.client.node.NodeClient.doExecute(NodeClient.java:58)
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:351)
+	at org.elasticsearch.client.FilterClient.doExecute(FilterClient.java:52)
+	at org.elasticsearch.rest.BaseRestHandler$HeadersAndContextCopyClient.doExecute(BaseRestHandler.java:83)
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:351)
+	at org.elasticsearch.client.support.AbstractClient.search(AbstractClient.java:574)
+	at org.elasticsearch.rest.action.search.RestSearchAction.handleRequest(RestSearchAction.java:84)
+	at org.elasticsearch.rest.BaseRestHandler.handleRequest(BaseRestHandler.java:54)
+	at org.elasticsearch.rest.RestController.executeHandler(RestController.java:207)
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:166)
+	at org.elasticsearch.http.HttpServer.internalDispatchRequest(HttpServer.java:128)
+	at org.elasticsearch.http.HttpServer$Dispatcher.dispatchRequest(HttpServer.java:86)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.dispatchRequest(NettyHttpServerTransport.java:363)
+	at org.elasticsearch.http.netty.HttpRequestHandler.messageReceived(HttpRequestHandler.java:63)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.http.netty.pipelining.HttpPipeliningHandler.messageReceived(HttpPipeliningHandler.java:60)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleUpstream(SimpleChannelHandler.java:88)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpChunkAggregator.messageReceived(HttpChunkAggregator.java:145)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpContentDecoder.messageReceived(HttpContentDecoder.java:108)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:459)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.callDecode(ReplayingDecoder.java:536)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.messageReceived(ReplayingDecoder.java:435)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:75)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-11 21:58:24,003][ERROR][license.plugin.core      ] [Challenger] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 21:58:27,822][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 22:08:24,013][ERROR][license.plugin.core      ] [Challenger] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 22:08:27,844][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 22:18:24,017][ERROR][license.plugin.core      ] [Challenger] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 22:18:27,864][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 22:28:24,026][ERROR][license.plugin.core      ] [Challenger] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 22:28:27,884][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 22:38:24,030][ERROR][license.plugin.core      ] [Challenger] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 22:38:27,902][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 22:48:24,037][ERROR][license.plugin.core      ] [Challenger] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 22:48:27,907][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 22:58:24,045][ERROR][license.plugin.core      ] [Challenger] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 22:58:27,923][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 23:08:24,048][ERROR][license.plugin.core      ] [Challenger] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 23:08:27,929][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 23:18:24,063][ERROR][license.plugin.core      ] [Challenger] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 23:18:27,948][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 23:28:24,066][ERROR][license.plugin.core      ] [Challenger] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 23:28:27,968][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 23:29:56,351][DEBUG][action.admin.indices.settings.put] [Isis] failed to update settings on indices [manufactures]
+java.lang.IllegalArgumentException: Can't update non dynamic settings[[index.manufacture.manufacture_name.type, index.manufacture.manufacture_name.index]] for open indices [[manufactures]]
+	at org.elasticsearch.cluster.metadata.MetaDataUpdateSettingsService$2.execute(MetaDataUpdateSettingsService.java:246)
+	at org.elasticsearch.cluster.ClusterStateUpdateTask.execute(ClusterStateUpdateTask.java:45)
+	at org.elasticsearch.cluster.service.InternalClusterService.runTasksForExecutor(InternalClusterService.java:458)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:762)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:231)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-11 23:29:56,427][INFO ][rest.suppressed          ] /manufactures/_settings Params: {index=manufactures}
+java.lang.IllegalArgumentException: Can't update non dynamic settings[[index.manufacture.manufacture_name.type, index.manufacture.manufacture_name.index]] for open indices [[manufactures]]
+	at org.elasticsearch.cluster.metadata.MetaDataUpdateSettingsService$2.execute(MetaDataUpdateSettingsService.java:246)
+	at org.elasticsearch.cluster.ClusterStateUpdateTask.execute(ClusterStateUpdateTask.java:45)
+	at org.elasticsearch.cluster.service.InternalClusterService.runTasksForExecutor(InternalClusterService.java:458)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:762)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:231)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-11 23:32:23,285][INFO ][rest.suppressed          ] /manufactures/_close Params: {index=manufactures, type=_close}
+java.lang.IllegalArgumentException: No feature for name [_close]
+	at org.elasticsearch.action.admin.indices.get.GetIndexRequest$Feature.fromName(GetIndexRequest.java:82)
+	at org.elasticsearch.action.admin.indices.get.GetIndexRequest$Feature.convertToFeatures(GetIndexRequest.java:95)
+	at org.elasticsearch.rest.action.admin.indices.get.RestGetIndicesAction.handleRequest(RestGetIndicesAction.java:77)
+	at org.elasticsearch.rest.BaseRestHandler.handleRequest(BaseRestHandler.java:54)
+	at org.elasticsearch.rest.RestController.executeHandler(RestController.java:207)
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:166)
+	at org.elasticsearch.http.HttpServer.internalDispatchRequest(HttpServer.java:128)
+	at org.elasticsearch.http.HttpServer$Dispatcher.dispatchRequest(HttpServer.java:86)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.dispatchRequest(NettyHttpServerTransport.java:363)
+	at org.elasticsearch.http.netty.HttpRequestHandler.messageReceived(HttpRequestHandler.java:63)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.http.netty.pipelining.HttpPipeliningHandler.messageReceived(HttpPipeliningHandler.java:60)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleUpstream(SimpleChannelHandler.java:88)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpChunkAggregator.messageReceived(HttpChunkAggregator.java:145)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpContentDecoder.messageReceived(HttpContentDecoder.java:108)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:459)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.callDecode(ReplayingDecoder.java:536)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.messageReceived(ReplayingDecoder.java:435)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:75)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-11 23:32:45,350][INFO ][cluster.metadata         ] [Isis] closing indices [[manufactures]]
+[2016-04-11 23:34:24,270][INFO ][rest.suppressed          ] /manufactures/_mapping Params: {ignore_conflicts=true, index=manufactures}
+org.elasticsearch.action.ActionRequestValidationException: Validation Failed: 1: mapping type is missing;
+	at org.elasticsearch.action.ValidateActions.addValidationError(ValidateActions.java:29)
+	at org.elasticsearch.action.admin.indices.mapping.put.PutMappingRequest.validate(PutMappingRequest.java:83)
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:62)
+	at org.elasticsearch.client.node.NodeClient.doExecute(NodeClient.java:58)
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:351)
+	at org.elasticsearch.client.FilterClient.doExecute(FilterClient.java:52)
+	at org.elasticsearch.rest.BaseRestHandler$HeadersAndContextCopyClient.doExecute(BaseRestHandler.java:83)
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:351)
+	at org.elasticsearch.client.support.AbstractClient$IndicesAdmin.execute(AbstractClient.java:1187)
+	at org.elasticsearch.client.support.AbstractClient$IndicesAdmin.putMapping(AbstractClient.java:1432)
+	at org.elasticsearch.rest.action.admin.indices.mapping.put.RestPutMappingAction.handleRequest(RestPutMappingAction.java:76)
+	at org.elasticsearch.rest.BaseRestHandler.handleRequest(BaseRestHandler.java:54)
+	at org.elasticsearch.rest.RestController.executeHandler(RestController.java:207)
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:166)
+	at org.elasticsearch.http.HttpServer.internalDispatchRequest(HttpServer.java:128)
+	at org.elasticsearch.http.HttpServer$Dispatcher.dispatchRequest(HttpServer.java:86)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.dispatchRequest(NettyHttpServerTransport.java:363)
+	at org.elasticsearch.http.netty.HttpRequestHandler.messageReceived(HttpRequestHandler.java:63)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.http.netty.pipelining.HttpPipeliningHandler.messageReceived(HttpPipeliningHandler.java:60)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleUpstream(SimpleChannelHandler.java:88)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpChunkAggregator.messageReceived(HttpChunkAggregator.java:145)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpContentDecoder.messageReceived(HttpContentDecoder.java:108)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:459)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.callDecode(ReplayingDecoder.java:536)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.messageReceived(ReplayingDecoder.java:435)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:75)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-11 23:36:15,471][DEBUG][action.admin.indices.mapping.put] [Isis] failed to put mappings on indices [[manufactures]], type [manufacture]
+java.lang.IllegalArgumentException: Mapper for [manufacture_name] conflicts with existing mapping in other types:
+[mapper [manufacture_name] has different [index] values, mapper [manufacture_name] has different [doc_values] values, cannot change from disabled to enabled, mapper [manufacture_name] has different [analyzer]]
+	at org.elasticsearch.index.mapper.FieldTypeLookup.checkCompatibility(FieldTypeLookup.java:170)
+	at org.elasticsearch.index.mapper.MapperService.checkMappersCompatibility(MapperService.java:402)
+	at org.elasticsearch.index.mapper.MapperService.checkMappersCompatibility(MapperService.java:411)
+	at org.elasticsearch.index.mapper.DocumentMapper.merge(DocumentMapper.java:390)
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:261)
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230)
+	at org.elasticsearch.cluster.service.InternalClusterService.runTasksForExecutor(InternalClusterService.java:458)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:762)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:231)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-11 23:36:15,501][INFO ][rest.suppressed          ] /manufactures/manufacture/_mapping Params: {ignore_conflicts=true, index=manufactures, type=manufacture}
+java.lang.IllegalArgumentException: Mapper for [manufacture_name] conflicts with existing mapping in other types:
+[mapper [manufacture_name] has different [index] values, mapper [manufacture_name] has different [doc_values] values, cannot change from disabled to enabled, mapper [manufacture_name] has different [analyzer]]
+	at org.elasticsearch.index.mapper.FieldTypeLookup.checkCompatibility(FieldTypeLookup.java:170)
+	at org.elasticsearch.index.mapper.MapperService.checkMappersCompatibility(MapperService.java:402)
+	at org.elasticsearch.index.mapper.MapperService.checkMappersCompatibility(MapperService.java:411)
+	at org.elasticsearch.index.mapper.DocumentMapper.merge(DocumentMapper.java:390)
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:261)
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230)
+	at org.elasticsearch.cluster.service.InternalClusterService.runTasksForExecutor(InternalClusterService.java:458)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:762)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:231)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-11 23:36:33,843][DEBUG][action.admin.indices.mapping.put] [Isis] failed to put mappings on indices [[manufactures]], type [manufacture]
+java.lang.IllegalArgumentException: Mapper for [manufacture_name] conflicts with existing mapping in other types:
+[mapper [manufacture_name] has different [index] values, mapper [manufacture_name] has different [doc_values] values, cannot change from disabled to enabled, mapper [manufacture_name] has different [analyzer]]
+	at org.elasticsearch.index.mapper.FieldTypeLookup.checkCompatibility(FieldTypeLookup.java:170)
+	at org.elasticsearch.index.mapper.MapperService.checkMappersCompatibility(MapperService.java:402)
+	at org.elasticsearch.index.mapper.MapperService.checkMappersCompatibility(MapperService.java:411)
+	at org.elasticsearch.index.mapper.DocumentMapper.merge(DocumentMapper.java:390)
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:261)
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230)
+	at org.elasticsearch.cluster.service.InternalClusterService.runTasksForExecutor(InternalClusterService.java:458)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:762)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:231)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-11 23:36:33,880][INFO ][rest.suppressed          ] /manufactures/manufacture/_mapping Params: {ignore_conflicts=true, index=manufactures, type=manufacture}
+java.lang.IllegalArgumentException: Mapper for [manufacture_name] conflicts with existing mapping in other types:
+[mapper [manufacture_name] has different [index] values, mapper [manufacture_name] has different [doc_values] values, cannot change from disabled to enabled, mapper [manufacture_name] has different [analyzer]]
+	at org.elasticsearch.index.mapper.FieldTypeLookup.checkCompatibility(FieldTypeLookup.java:170)
+	at org.elasticsearch.index.mapper.MapperService.checkMappersCompatibility(MapperService.java:402)
+	at org.elasticsearch.index.mapper.MapperService.checkMappersCompatibility(MapperService.java:411)
+	at org.elasticsearch.index.mapper.DocumentMapper.merge(DocumentMapper.java:390)
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:261)
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230)
+	at org.elasticsearch.cluster.service.InternalClusterService.runTasksForExecutor(InternalClusterService.java:458)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:762)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:231)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-11 23:37:41,083][INFO ][cluster.metadata         ] [Isis] [manufactures] creating index, cause [api], templates [], shards [5]/[1], mappings [manufacture]
+[2016-04-11 23:37:42,041][INFO ][cluster.routing.allocation] [Isis] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[manufactures][2], [manufactures][4], [manufactures][0], [manufactures][2], [manufactures][4], [manufactures][0]] ...]).
+[2016-04-11 23:37:43,838][INFO ][cluster.routing.allocation] [Isis] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[manufactures][4]] ...]).
+[2016-04-11 23:38:24,073][ERROR][license.plugin.core      ] [Challenger] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 23:38:27,980][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 23:42:17,705][INFO ][cluster.metadata         ] [Isis] [manufactures] creating index, cause [api], templates [], shards [5]/[1], mappings [manufacture]
+[2016-04-11 23:42:18,399][INFO ][cluster.routing.allocation] [Isis] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[manufactures][4], [manufactures][4]] ...]).
+[2016-04-11 23:42:19,815][INFO ][cluster.routing.allocation] [Isis] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[manufactures][4]] ...]).
+[2016-04-11 23:42:42,328][INFO ][bootstrap                ] running graceful exit on windows
+[2016-04-11 23:42:42,331][INFO ][node                     ] [Challenger] stopping ...
+[2016-04-11 23:42:42,339][INFO ][cluster.routing.allocation] [Isis] Cluster health status changed from [GREEN] to [YELLOW] (reason: [[{Challenger}{HKxCW_sWT0eeBQrR30y8pQ}{127.0.0.1}{127.0.0.1:9301}] left]).
+[2016-04-11 23:42:42,339][INFO ][cluster.service          ] [Isis] removed {{Challenger}{HKxCW_sWT0eeBQrR30y8pQ}{127.0.0.1}{127.0.0.1:9301},}, reason: zen-disco-node_left({Challenger}{HKxCW_sWT0eeBQrR30y8pQ}{127.0.0.1}{127.0.0.1:9301})
+[2016-04-11 23:42:42,339][INFO ][cluster.routing          ] [Isis] delaying allocation for [32] unassigned shards, next check in [1m]
+[2016-04-11 23:42:43,487][INFO ][node                     ] [Challenger] stopped
+[2016-04-11 23:42:43,489][INFO ][node                     ] [Challenger] closing ...
+[2016-04-11 23:42:43,505][INFO ][node                     ] [Challenger] closed
+[2016-04-11 23:48:27,993][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-11 23:58:28,004][ERROR][license.plugin.core      ] [Isis] 
+#
+# License will expire on [Tuesday, April 12, 2016]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
