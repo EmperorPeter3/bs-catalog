@@ -16,5 +16,5 @@
 2. 1st cmd: Go to bs-catalog-master/elasticsearch-2.2.0/bin, then run elasticsearch.bat
 3. Create an index in ES through Postman or curl (index description in [es-index-create.txt](https://github.com/EmperorPeter3/bs-catalog/blob/master/es-index-create.txt) file)
 4. Import generated data by running command: curl -XPUT localhost:9200/_bulk --data-binary @es_index_data.json
-5. 2nd cmd: Go to bs-catalog-master/bs-catalog, then run npm start
-6. If you get an error with server starting, try to change in script 'package.json' value of'http-server' to '^0.6.1' or '^0.8.5'
+5. 2nd cmd: Go to bs-catalog-master/bs-catalog, then run npm start (If you get an error with server starting, try to change in script 'package.json' value of'http-server' to '^0.6.1' or '^0.8.5')
+6. Go to http://localhost:8000/app/index.html
