@@ -1,0 +1,279 @@
+[2016-04-15 00:03:44,990][ERROR][license.plugin.core      ] [Gateway] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-15 00:13:45,018][ERROR][license.plugin.core      ] [Gateway] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-15 00:17:58,927][INFO ][node                     ] [Gateway] stopping ...
+[2016-04-15 00:18:04,799][DEBUG][action.admin.indices.recovery] [Gateway] failed to execute [indices:monitor/recovery] on node [pFvlBsVZT6q0k5e7bHUmBw]
+SendRequestTransportException[[Gateway][127.0.0.1:9300][indices:monitor/recovery[n]]]; nested: TransportException[TransportService is closed stopped can't send request];
+	at org.elasticsearch.transport.TransportService.sendRequest(TransportService.java:323)
+	at org.elasticsearch.transport.TransportService.sendRequest(TransportService.java:282)
+	at org.elasticsearch.action.support.broadcast.node.TransportBroadcastByNodeAction$AsyncAction.sendNodeRequest(TransportBroadcastByNodeAction.java:300)
+	at org.elasticsearch.action.support.broadcast.node.TransportBroadcastByNodeAction$AsyncAction.start(TransportBroadcastByNodeAction.java:292)
+	at org.elasticsearch.action.support.broadcast.node.TransportBroadcastByNodeAction.doExecute(TransportBroadcastByNodeAction.java:217)
+	at org.elasticsearch.action.support.broadcast.node.TransportBroadcastByNodeAction.doExecute(TransportBroadcastByNodeAction.java:77)
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:70)
+	at org.elasticsearch.client.node.NodeClient.doExecute(NodeClient.java:58)
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:351)
+	at org.elasticsearch.marvel.shield.SecuredClient$IndicesAdmin.execute(SecuredClient.java:700)
+	at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:85)
+	at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:59)
+	at org.elasticsearch.action.ActionRequestBuilder.get(ActionRequestBuilder.java:74)
+	at org.elasticsearch.marvel.agent.collector.indices.IndexRecoveryCollector.doCollect(IndexRecoveryCollector.java:70)
+	at org.elasticsearch.marvel.agent.collector.AbstractCollector.collect(AbstractCollector.java:89)
+	at org.elasticsearch.marvel.agent.AgentService$ExportingWorker.run(AgentService.java:187)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: TransportException[TransportService is closed stopped can't send request]
+	at org.elasticsearch.transport.TransportService.sendRequest(TransportService.java:303)
+	... 16 more
+[2016-04-15 00:18:05,536][ERROR][marvel.agent.collector.indices] [Gateway] collector [index-recovery-collector] - failed collecting data
+java.lang.IllegalStateException: Future got interrupted
+	at org.elasticsearch.action.support.AdapterActionFuture.actionGet(AdapterActionFuture.java:72)
+	at org.elasticsearch.action.support.AdapterActionFuture.actionGet(AdapterActionFuture.java:62)
+	at org.elasticsearch.action.ActionRequestBuilder.get(ActionRequestBuilder.java:74)
+	at org.elasticsearch.marvel.agent.collector.indices.IndexRecoveryCollector.doCollect(IndexRecoveryCollector.java:70)
+	at org.elasticsearch.marvel.agent.collector.AbstractCollector.collect(AbstractCollector.java:89)
+	at org.elasticsearch.marvel.agent.AgentService$ExportingWorker.run(AgentService.java:187)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.doAcquireSharedNanos(AbstractQueuedSynchronizer.java:1039)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.tryAcquireSharedNanos(AbstractQueuedSynchronizer.java:1328)
+	at org.elasticsearch.common.util.concurrent.BaseFuture$Sync.get(BaseFuture.java:259)
+	at org.elasticsearch.common.util.concurrent.BaseFuture.get(BaseFuture.java:94)
+	at org.elasticsearch.action.support.AdapterActionFuture.actionGet(AdapterActionFuture.java:68)
+	... 6 more
+[2016-04-15 00:18:15,006][DEBUG][action.admin.cluster.node.stats] [Gateway] failed to execute on node [pFvlBsVZT6q0k5e7bHUmBw]
+SendRequestTransportException[[Gateway][127.0.0.1:9300][cluster:monitor/nodes/stats[n]]]; nested: TransportException[TransportService is closed stopped can't send request];
+	at org.elasticsearch.transport.TransportService.sendRequest(TransportService.java:323)
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction.start(TransportNodesAction.java:147)
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction.access$100(TransportNodesAction.java:94)
+	at org.elasticsearch.action.support.nodes.TransportNodesAction.doExecute(TransportNodesAction.java:68)
+	at org.elasticsearch.action.support.nodes.TransportNodesAction.doExecute(TransportNodesAction.java:44)
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:70)
+	at org.elasticsearch.cluster.InternalClusterInfoService.updateNodeStats(InternalClusterInfoService.java:286)
+	at org.elasticsearch.cluster.InternalClusterInfoService.refresh(InternalClusterInfoService.java:323)
+	at org.elasticsearch.cluster.InternalClusterInfoService.maybeRefresh(InternalClusterInfoService.java:307)
+	at org.elasticsearch.cluster.InternalClusterInfoService.access$600(InternalClusterInfoService.java:66)
+	at org.elasticsearch.cluster.InternalClusterInfoService$SubmitReschedulingClusterInfoUpdatedJob$1.run(InternalClusterInfoService.java:252)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: TransportException[TransportService is closed stopped can't send request]
+	at org.elasticsearch.transport.TransportService.sendRequest(TransportService.java:303)
+	... 13 more
+[2016-04-15 00:18:15,006][DEBUG][action.admin.indices.stats] [Gateway] failed to execute [indices:monitor/stats] on node [pFvlBsVZT6q0k5e7bHUmBw]
+SendRequestTransportException[[Gateway][127.0.0.1:9300][indices:monitor/stats[n]]]; nested: TransportException[TransportService is closed stopped can't send request];
+	at org.elasticsearch.transport.TransportService.sendRequest(TransportService.java:323)
+	at org.elasticsearch.transport.TransportService.sendRequest(TransportService.java:282)
+	at org.elasticsearch.action.support.broadcast.node.TransportBroadcastByNodeAction$AsyncAction.sendNodeRequest(TransportBroadcastByNodeAction.java:300)
+	at org.elasticsearch.action.support.broadcast.node.TransportBroadcastByNodeAction$AsyncAction.start(TransportBroadcastByNodeAction.java:292)
+	at org.elasticsearch.action.support.broadcast.node.TransportBroadcastByNodeAction.doExecute(TransportBroadcastByNodeAction.java:217)
+	at org.elasticsearch.action.support.broadcast.node.TransportBroadcastByNodeAction.doExecute(TransportBroadcastByNodeAction.java:77)
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:70)
+	at org.elasticsearch.cluster.InternalClusterInfoService.updateIndicesStats(InternalClusterInfoService.java:300)
+	at org.elasticsearch.cluster.InternalClusterInfoService.refresh(InternalClusterInfoService.java:352)
+	at org.elasticsearch.cluster.InternalClusterInfoService.maybeRefresh(InternalClusterInfoService.java:307)
+	at org.elasticsearch.cluster.InternalClusterInfoService.access$600(InternalClusterInfoService.java:66)
+	at org.elasticsearch.cluster.InternalClusterInfoService$SubmitReschedulingClusterInfoUpdatedJob$1.run(InternalClusterInfoService.java:252)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: TransportException[TransportService is closed stopped can't send request]
+	at org.elasticsearch.transport.TransportService.sendRequest(TransportService.java:303)
+	... 14 more
+[2016-04-15 00:18:15,179][INFO ][node                     ] [Gateway] stopped
+[2016-04-15 00:18:15,248][INFO ][node                     ] [Gateway] closing ...
+[2016-04-15 00:18:15,275][INFO ][bootstrap                ] running graceful exit on windows
+[2016-04-15 00:18:16,618][INFO ][node                     ] [Gateway] closed
+[2016-04-15 14:43:07,249][INFO ][node                     ] [Adonis] version[2.2.0], pid[9640], build[8ff36d1/2016-01-27T13:32:39Z]
+[2016-04-15 14:43:07,256][INFO ][node                     ] [Adonis] initializing ...
+[2016-04-15 14:43:07,976][INFO ][plugins                  ] [Adonis] modules [lang-expression, lang-groovy], plugins [license, marvel-agent], sites []
+[2016-04-15 14:43:08,026][INFO ][env                      ] [Adonis] using [1] data paths, mounts [[Windows (C:)]], net usable_space [307.6gb], net total_space [516.5gb], spins? [unknown], types [NTFS]
+[2016-04-15 14:43:08,026][INFO ][env                      ] [Adonis] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-04-15 14:43:10,973][INFO ][node                     ] [Adonis] initialized
+[2016-04-15 14:43:10,974][INFO ][node                     ] [Adonis] starting ...
+[2016-04-15 14:43:11,262][INFO ][transport                ] [Adonis] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-04-15 14:43:11,269][INFO ][discovery                ] [Adonis] elasticsearch/Zvrb_tXWTQWZXExqluvV-A
+[2016-04-15 14:43:15,317][INFO ][cluster.service          ] [Adonis] new_master {Adonis}{Zvrb_tXWTQWZXExqluvV-A}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-15 14:43:15,518][INFO ][http                     ] [Adonis] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-04-15 14:43:15,536][INFO ][node                     ] [Adonis] started
+[2016-04-15 14:43:16,286][INFO ][license.plugin.core      ] [Adonis] license [e553a35c-d414-42dd-a0ca-b223abde3239] - grace
+[2016-04-15 14:43:16,302][ERROR][license.plugin.core      ] [Adonis] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-15 14:43:17,126][INFO ][gateway                  ] [Adonis] recovered [19] indices into cluster_state
+[2016-04-15 14:43:21,793][INFO ][cluster.metadata         ] [Adonis] [.marvel-es-2016.04.15] creating index, cause [auto(bulk api)], templates [.marvel-es], shards [1]/[1], mappings [shards, node, _default_, index_stats, nodes, index_recovery, cluster_state, cluster_info, cluster_stats, indices_stats, node_stats]
+[2016-04-15 14:43:27,926][INFO ][cluster.metadata         ] [Adonis] [.marvel-es-2016.04.15] update_mapping [indices_stats]
+[2016-04-15 14:43:27,988][INFO ][cluster.routing.allocation] [Adonis] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.marvel-es-2016.03.13][0], [.marvel-es-2016.03.13][0]] ...]).
+[2016-04-15 14:43:28,050][INFO ][cluster.metadata         ] [Adonis] [.marvel-es-2016.04.15] update_mapping [cluster_stats]
+[2016-04-15 14:43:28,132][INFO ][cluster.metadata         ] [Adonis] [.marvel-es-2016.04.15] update_mapping [node_stats]
+[2016-04-15 14:53:16,308][ERROR][license.plugin.core      ] [Adonis] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-15 15:03:16,317][ERROR][license.plugin.core      ] [Adonis] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-15 15:13:16,321][ERROR][license.plugin.core      ] [Adonis] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-15 15:23:16,324][ERROR][license.plugin.core      ] [Adonis] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-15 15:33:16,331][ERROR][license.plugin.core      ] [Adonis] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-15 15:43:16,337][ERROR][license.plugin.core      ] [Adonis] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-15 15:45:21,775][INFO ][node                     ] [Adonis] stopping ...
+[2016-04-15 15:45:22,791][INFO ][node                     ] [Adonis] stopped
+[2016-04-15 15:45:22,797][INFO ][node                     ] [Adonis] closing ...
+[2016-04-15 15:45:22,809][INFO ][node                     ] [Adonis] closed
+[2016-04-15 19:42:47,595][INFO ][node                     ] [Bandit] version[2.2.0], pid[3600], build[8ff36d1/2016-01-27T13:32:39Z]
+[2016-04-15 19:42:47,595][INFO ][node                     ] [Bandit] initializing ...
+[2016-04-15 19:42:48,409][INFO ][plugins                  ] [Bandit] modules [lang-expression, lang-groovy], plugins [license, marvel-agent], sites []
+[2016-04-15 19:42:48,454][INFO ][env                      ] [Bandit] using [1] data paths, mounts [[Windows (C:)]], net usable_space [304.3gb], net total_space [516.5gb], spins? [unknown], types [NTFS]
+[2016-04-15 19:42:48,457][INFO ][env                      ] [Bandit] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-04-15 19:42:50,602][INFO ][node                     ] [Bandit] initialized
+[2016-04-15 19:42:50,603][INFO ][node                     ] [Bandit] starting ...
+[2016-04-15 19:42:51,085][INFO ][transport                ] [Bandit] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-04-15 19:42:51,094][INFO ][discovery                ] [Bandit] elasticsearch/egnsY9DARVidas88ntZ1Uw
+[2016-04-15 19:42:55,152][INFO ][cluster.service          ] [Bandit] new_master {Bandit}{egnsY9DARVidas88ntZ1Uw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-15 19:42:55,352][INFO ][http                     ] [Bandit] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-04-15 19:42:55,354][INFO ][node                     ] [Bandit] started
+[2016-04-15 19:42:55,884][INFO ][license.plugin.core      ] [Bandit] license [e553a35c-d414-42dd-a0ca-b223abde3239] - grace
+[2016-04-15 19:42:55,889][ERROR][license.plugin.core      ] [Bandit] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-15 19:42:56,464][INFO ][gateway                  ] [Bandit] recovered [20] indices into cluster_state
+[2016-04-15 19:43:10,706][INFO ][cluster.routing.allocation] [Bandit] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.marvel-es-2016.03.13][0]] ...]).
+[2016-04-15 19:52:55,894][ERROR][license.plugin.core      ] [Bandit] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-15 20:02:55,905][ERROR][license.plugin.core      ] [Bandit] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-15 20:12:55,926][ERROR][license.plugin.core      ] [Bandit] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-15 20:22:55,943][ERROR][license.plugin.core      ] [Bandit] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-15 20:32:55,961][ERROR][license.plugin.core      ] [Bandit] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-15 20:42:55,977][ERROR][license.plugin.core      ] [Bandit] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-15 20:51:25,092][INFO ][node                     ] [Bandit] stopping ...
+[2016-04-15 20:51:25,732][INFO ][node                     ] [Bandit] stopped
+[2016-04-15 20:51:25,734][INFO ][node                     ] [Bandit] closing ...
+[2016-04-15 20:51:25,744][INFO ][node                     ] [Bandit] closed
+[2016-04-15 21:39:14,023][INFO ][node                     ] [Goldeneye] version[2.2.0], pid[8368], build[8ff36d1/2016-01-27T13:32:39Z]
+[2016-04-15 21:39:14,035][INFO ][node                     ] [Goldeneye] initializing ...
+[2016-04-15 21:39:14,680][INFO ][plugins                  ] [Goldeneye] modules [lang-expression, lang-groovy], plugins [license, marvel-agent], sites []
+[2016-04-15 21:39:14,717][INFO ][env                      ] [Goldeneye] using [1] data paths, mounts [[Windows (C:)]], net usable_space [305.4gb], net total_space [516.5gb], spins? [unknown], types [NTFS]
+[2016-04-15 21:39:14,721][INFO ][env                      ] [Goldeneye] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-04-15 21:39:16,875][INFO ][node                     ] [Goldeneye] initialized
+[2016-04-15 21:39:16,876][INFO ][node                     ] [Goldeneye] starting ...
+[2016-04-15 21:39:17,137][INFO ][transport                ] [Goldeneye] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-04-15 21:39:17,145][INFO ][discovery                ] [Goldeneye] elasticsearch/matlPcUQSSmYncA08J_ACQ
+[2016-04-15 21:39:21,177][INFO ][cluster.service          ] [Goldeneye] new_master {Goldeneye}{matlPcUQSSmYncA08J_ACQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-15 21:39:21,400][INFO ][http                     ] [Goldeneye] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-04-15 21:39:21,403][INFO ][node                     ] [Goldeneye] started
+[2016-04-15 21:39:21,695][INFO ][license.plugin.core      ] [Goldeneye] license [e553a35c-d414-42dd-a0ca-b223abde3239] - grace
+[2016-04-15 21:39:21,700][ERROR][license.plugin.core      ] [Goldeneye] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-15 21:39:22,329][INFO ][gateway                  ] [Goldeneye] recovered [20] indices into cluster_state
+[2016-04-15 21:39:34,127][INFO ][cluster.routing.allocation] [Goldeneye] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.marvel-es-2016.03.13][0]] ...]).
+[2016-04-15 21:41:54,688][INFO ][node                     ] [Goldeneye] stopping ...
+[2016-04-15 21:41:56,084][INFO ][node                     ] [Goldeneye] stopped
+[2016-04-15 21:41:56,085][INFO ][node                     ] [Goldeneye] closing ...
+[2016-04-15 21:41:56,090][INFO ][node                     ] [Goldeneye] closed

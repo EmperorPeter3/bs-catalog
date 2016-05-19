@@ -5,7 +5,9 @@
 var bsCatalogApp = angular.module('bsCatalogApp', [
   'ngRoute',
   'bsCatalogControllers',
-  'elasticui'
+  'bsCatalogDirectives',
+  'elasticui',
+  'ngMap'
 ]);
 
 bsCatalogApp.constant('euiHost', 'http://localhost:9200');
@@ -24,6 +26,10 @@ bsCatalogApp.config(['$routeProvider',
       when('/addBusiness', {
         templateUrl: 'partials/business-add.html',
         controller: 'BusinessAddCtrl'
+      }).
+      when('/editManufacture', {
+        templateUrl: 'partials/edit-manufacture.html',
+        controller: 'editManufactureCtrl'
       }).
       otherwise({
         redirectTo: '/business-catalog'

@@ -1,0 +1,235 @@
+[2016-05-01 00:07:23,335][ERROR][license.plugin.core      ] [Aliyah Bishop] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-01 00:17:23,366][ERROR][license.plugin.core      ] [Aliyah Bishop] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-01 00:25:59,100][DEBUG][action.index             ] [Aliyah Bishop] failed to execute [index {[manufactures][manufacture][AVRpEFa7-kTOYmiUkADa], source[_na_]}] on [[manufactures][0]]
+MapperParsingException[failed to parse, document is empty]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseDocument(DocumentParser.java:160)
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:79)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:304)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreate(IndexShard.java:500)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreateOnPrimary(IndexShard.java:481)
+	at org.elasticsearch.action.index.TransportIndexAction.prepareIndexOperationOnPrimary(TransportIndexAction.java:214)
+	at org.elasticsearch.action.index.TransportIndexAction.executeIndexRequestOnPrimary(TransportIndexAction.java:223)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:157)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:65)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryPhase.doRun(TransportReplicationAction.java:595)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:263)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:260)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-05-01 00:25:59,135][INFO ][rest.suppressed          ] /manufactures/manufacture/ Params: {index=manufactures, type=manufacture}
+RemoteTransportException[[Aliyah Bishop][127.0.0.1:9300][indices:data/write/index[p]]]; nested: MapperParsingException[failed to parse, document is empty];
+Caused by: MapperParsingException[failed to parse, document is empty]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseDocument(DocumentParser.java:160)
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:79)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:304)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreate(IndexShard.java:500)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreateOnPrimary(IndexShard.java:481)
+	at org.elasticsearch.action.index.TransportIndexAction.prepareIndexOperationOnPrimary(TransportIndexAction.java:214)
+	at org.elasticsearch.action.index.TransportIndexAction.executeIndexRequestOnPrimary(TransportIndexAction.java:223)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:157)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:65)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryPhase.doRun(TransportReplicationAction.java:595)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:263)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:260)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-05-01 00:26:30,920][DEBUG][action.index             ] [Aliyah Bishop] failed to execute [index {[manufactures][manufacture][AVRpENMI-kTOYmiUkADb], source[_na_]}] on [[manufactures][1]]
+MapperParsingException[failed to parse, document is empty]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseDocument(DocumentParser.java:160)
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:79)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:304)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreate(IndexShard.java:500)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreateOnPrimary(IndexShard.java:481)
+	at org.elasticsearch.action.index.TransportIndexAction.prepareIndexOperationOnPrimary(TransportIndexAction.java:214)
+	at org.elasticsearch.action.index.TransportIndexAction.executeIndexRequestOnPrimary(TransportIndexAction.java:223)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:157)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:65)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryPhase.doRun(TransportReplicationAction.java:595)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:263)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:260)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-05-01 00:26:30,948][INFO ][rest.suppressed          ] /manufactures/manufacture/ Params: {index=manufactures, type=manufacture}
+RemoteTransportException[[Aliyah Bishop][127.0.0.1:9300][indices:data/write/index[p]]]; nested: MapperParsingException[failed to parse, document is empty];
+Caused by: MapperParsingException[failed to parse, document is empty]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseDocument(DocumentParser.java:160)
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:79)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:304)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreate(IndexShard.java:500)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreateOnPrimary(IndexShard.java:481)
+	at org.elasticsearch.action.index.TransportIndexAction.prepareIndexOperationOnPrimary(TransportIndexAction.java:214)
+	at org.elasticsearch.action.index.TransportIndexAction.executeIndexRequestOnPrimary(TransportIndexAction.java:223)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:157)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:65)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryPhase.doRun(TransportReplicationAction.java:595)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:263)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:260)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-05-01 00:27:23,398][ERROR][license.plugin.core      ] [Aliyah Bishop] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-01 00:27:31,625][DEBUG][action.index             ] [Aliyah Bishop] failed to execute [index {[manufactures][manufacture][AVRpEcAo-kTOYmiUkADd], source[_na_]}] on [[manufactures][0]]
+MapperParsingException[failed to parse, document is empty]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseDocument(DocumentParser.java:160)
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:79)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:304)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreate(IndexShard.java:500)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreateOnPrimary(IndexShard.java:481)
+	at org.elasticsearch.action.index.TransportIndexAction.prepareIndexOperationOnPrimary(TransportIndexAction.java:214)
+	at org.elasticsearch.action.index.TransportIndexAction.executeIndexRequestOnPrimary(TransportIndexAction.java:223)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:157)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:65)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryPhase.doRun(TransportReplicationAction.java:595)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:263)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:260)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-05-01 00:27:31,651][INFO ][rest.suppressed          ] /manufactures/manufacture/ Params: {index=manufactures, type=manufacture}
+RemoteTransportException[[Aliyah Bishop][127.0.0.1:9300][indices:data/write/index[p]]]; nested: MapperParsingException[failed to parse, document is empty];
+Caused by: MapperParsingException[failed to parse, document is empty]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseDocument(DocumentParser.java:160)
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:79)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:304)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreate(IndexShard.java:500)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreateOnPrimary(IndexShard.java:481)
+	at org.elasticsearch.action.index.TransportIndexAction.prepareIndexOperationOnPrimary(TransportIndexAction.java:214)
+	at org.elasticsearch.action.index.TransportIndexAction.executeIndexRequestOnPrimary(TransportIndexAction.java:223)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:157)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:65)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryPhase.doRun(TransportReplicationAction.java:595)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:263)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:260)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-05-01 00:31:16,049][INFO ][node                     ] [Aliyah Bishop] stopping ...
+[2016-05-01 00:31:17,045][INFO ][node                     ] [Aliyah Bishop] stopped
+[2016-05-01 00:31:17,045][INFO ][node                     ] [Aliyah Bishop] closing ...
+[2016-05-01 00:31:17,045][INFO ][node                     ] [Aliyah Bishop] closed
+[2016-05-01 00:35:50,564][INFO ][node                     ] [Jack Kirby] version[2.2.0], pid[4904], build[8ff36d1/2016-01-27T13:32:39Z]
+[2016-05-01 00:35:50,582][INFO ][node                     ] [Jack Kirby] initializing ...
+[2016-05-01 00:35:51,244][INFO ][plugins                  ] [Jack Kirby] modules [lang-expression, lang-groovy], plugins [license, marvel-agent], sites []
+[2016-05-01 00:35:51,264][INFO ][env                      ] [Jack Kirby] using [1] data paths, mounts [[Windows (C:)]], net usable_space [302.6gb], net total_space [516.5gb], spins? [unknown], types [NTFS]
+[2016-05-01 00:35:51,267][INFO ][env                      ] [Jack Kirby] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-01 00:35:54,570][INFO ][node                     ] [Jack Kirby] initialized
+[2016-05-01 00:35:54,571][INFO ][node                     ] [Jack Kirby] starting ...
+[2016-05-01 00:35:54,897][INFO ][transport                ] [Jack Kirby] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-01 00:35:54,905][INFO ][discovery                ] [Jack Kirby] elasticsearch/RH39_Ul1S9efM32-EOLvIg
+[2016-05-01 00:35:59,029][INFO ][cluster.service          ] [Jack Kirby] new_master {Jack Kirby}{RH39_Ul1S9efM32-EOLvIg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-01 00:35:59,269][INFO ][http                     ] [Jack Kirby] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-01 00:35:59,272][INFO ][node                     ] [Jack Kirby] started
+[2016-05-01 00:36:01,978][INFO ][license.plugin.core      ] [Jack Kirby] license [e553a35c-d414-42dd-a0ca-b223abde3239] - expired
+[2016-05-01 00:36:01,987][ERROR][license.plugin.core      ] [Jack Kirby] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-01 00:36:03,080][INFO ][gateway                  ] [Jack Kirby] recovered [21] indices into cluster_state
+[2016-05-01 00:36:21,515][INFO ][cluster.routing.allocation] [Jack Kirby] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.marvel-es-2016.03.13][0]] ...]).
+[2016-05-01 00:43:51,860][DEBUG][action.index             ] [Jack Kirby] failed to execute [index {[manufactures][manufacture][AVRpILUzWVxScD2nEBuN], source[_na_]}] on [[manufactures][3]]
+MapperParsingException[failed to parse, document is empty]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseDocument(DocumentParser.java:160)
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:79)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:304)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreate(IndexShard.java:500)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreateOnPrimary(IndexShard.java:481)
+	at org.elasticsearch.action.index.TransportIndexAction.prepareIndexOperationOnPrimary(TransportIndexAction.java:214)
+	at org.elasticsearch.action.index.TransportIndexAction.executeIndexRequestOnPrimary(TransportIndexAction.java:223)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:157)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:65)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryPhase.doRun(TransportReplicationAction.java:595)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:263)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:260)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-05-01 00:43:51,895][INFO ][rest.suppressed          ] /manufactures/manufacture/ Params: {index=manufactures, type=manufacture}
+RemoteTransportException[[Jack Kirby][127.0.0.1:9300][indices:data/write/index[p]]]; nested: MapperParsingException[failed to parse, document is empty];
+Caused by: MapperParsingException[failed to parse, document is empty]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseDocument(DocumentParser.java:160)
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:79)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:304)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreate(IndexShard.java:500)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreateOnPrimary(IndexShard.java:481)
+	at org.elasticsearch.action.index.TransportIndexAction.prepareIndexOperationOnPrimary(TransportIndexAction.java:214)
+	at org.elasticsearch.action.index.TransportIndexAction.executeIndexRequestOnPrimary(TransportIndexAction.java:223)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:157)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:65)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryPhase.doRun(TransportReplicationAction.java:595)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:263)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:260)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-05-01 00:46:02,009][ERROR][license.plugin.core      ] [Jack Kirby] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-01 00:56:02,028][ERROR][license.plugin.core      ] [Jack Kirby] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-01 00:58:47,426][INFO ][node                     ] [Jack Kirby] stopping ...
+[2016-05-01 00:58:48,012][INFO ][node                     ] [Jack Kirby] stopped
+[2016-05-01 00:58:48,012][INFO ][node                     ] [Jack Kirby] closing ...
+[2016-05-01 00:58:48,027][INFO ][node                     ] [Jack Kirby] closed

@@ -77,3 +77,15 @@ ul.specs dt {
 h1 {
   border-bottom: 1px solid gray;
 }
+
+#dir_mail, #dir_phone, #comp_addr {
+  margin-bottom: 3px;
+}
+
+.diap-inp{
+  width: 100px;
+}
+
+.manufactureType, .manufactureLayersDiapasones {
+  border: 1px solid black;
+}

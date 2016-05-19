@@ -1,0 +1,25 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-4">
+    <form role="form" ng-submit="addNewBusiness()">
+      <div class="form-group">
+        <label for="man_name">Manufacture name:</label>
+        <input type="text" class="form-control" id="man_name" ng-model="business.manufacture_name">
+      </div>
+      <div class="form-group">
+        <label for="com_name">Company name:</label>
+        <input type="text" class="form-control" id="com_name" ng-model="business.company_name">
+      </div>
+      <div class="form-group">
+        <label for="com_dir">Director:</label>
+        <input type="text" class="form-control" id="com_dir" ng-model="business.company_director">
+      </div>
+      <div class="form-group">
+        <label for="dir_phone">Director's phone:</label>
+        <input type="text" class="form-control" id="dir_phone" ng-model="business.director_phone">
+      </div>
+      <button type="submit" class="btn btn-default">Add</button>
+    </form>
+  </div>
+  </div>
+</div>

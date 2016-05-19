@@ -1,6 +1,5 @@
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-10">
+    <div class="col-md-offset-2 col-md-8 col-md-offset-2">
         <h3>Company: {{business.company_name}}</h3>
         <h4>Manufacture: {{business.manufacture_name}}</h4>
         <p>Address: <em>{{business.company_address}}</em> </p>
@@ -16,5 +15,11 @@
         <h4>Site: {{business.company_site}}</h4>
         <p>Description: {{business.company_description}}</p>
       </div>
-    </div>
   </div>
+<div class="container-fluid">
+  <div class="col-md-offset-2 col-md-8 col-md-offset-2">
+    <ng-map zoom="16" center="{{newAddress}}" />
+    <marker position="{{newAddress}}">
+    </marker>
+  </div>
+</div>

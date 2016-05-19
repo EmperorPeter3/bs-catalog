@@ -2,17 +2,17 @@
   <div class="row">
 
     <!--Search menu-->
-    <div class="col-md-offset-1 col-md-3" >
+    <div class="col-md-offset-2 col-md-3" >
       <h3>Search by company name</h3>
       <eui-searchbox field="'company_name'"></eui-searchbox>
-      <h3>Search by manufacture type</h3>
-      <eui-searchbox field="'manufacture_name'"></eui-searchbox>
+      <h3>Search by director name</h3>
+      <eui-searchbox field="'company_director'"></eui-searchbox>
 
       <h3>Manufacture type:</h3>
       <eui-singleselect field="'manufacture_name'" size="10"></eui-singleselect> 
 
       <h3>Description include:</h3>
-      <eui-checklist field="'company_name'" size="5"></eui-checklist>
+      <eui-checklist field="'company_description'" size="5"></eui-checklist>
 
       <!-- Additional search filter -->
       <div class="form-group">
@@ -22,24 +22,25 @@
 
       <!--Results per page -->
       <div class="form-group">
-        <label for="sort">Results per page:</label>
-        <select class="form-control" id="sort" ng-model="indexVM.pageSize">
+        <label for="resPerPage">Results per page:</label>
+        <select class="form-control" id="resPerPage" ng-model="indexVM.pageSize">
           <option ng-repeat="count in [10, 20, 50, 100]">{{count}}</option>
         </select>
       </div>
 
       <!-- Business create button -->
-      <a href="#/addBusiness" class="btn btn-info" role="button">Add new business</a>
+      <p><a href="#/addBusiness" class="btn btn-info" role="button">Add new business</a></p>
+      <!-- Manufacture edit  button -->
+      <p><a href="#/editManufacture" class="btn btn-info" role="button">Edit manufacture description</a></p>
     </div>
 
     <!--Search result (catalog)-->
-    <div class="col-md-8">
+    <div class="col-md-4">
       <h1>Results</h1>
       <ul>
           <li ng-repeat="doc in indexVM.results.hits.hits | filter:query">
               <!--{{doc._source | json | limitTo: 500 }}-->
-              <a href="#/business-catalog/{{doc._source.company_name}}" ng-click="getCompanyDescription(doc._source)">{{doc._source.company_name}}</a>
-              <h3>{{doc._source.company_name}}</h3>
+              <h3><a href="#/business-catalog/{{doc._source.company_name}}" ng-click="getCompanyDescription(doc._source)">{{doc._source.company_name}}</a></h3>
               <h4>{{doc._source.manufacture_name}}</h4>
               <p>
                 <b>{{doc._source.company_director}}</b>
