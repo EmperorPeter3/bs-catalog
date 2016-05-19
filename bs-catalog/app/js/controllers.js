@@ -127,17 +127,36 @@ bsCatalogControllers.controller('editManufactureCtrl', ['$scope', '$http',
     "temperature",
     "forest",
     "water"
-    ]
+    ];
 
-    var diapasoneEL = '<div class="diapasone"><label class="control-label" for="man_diap">Диапазон: </label><span> От:<input type="text"/></span><span> До:<input type="text"/></span><span> Значение:<input type="text"/></span></div>';
-    var layerEL = '<div class="control-group layer"><label class="control-label" for="man_layers">Слой: </label><select class="controls" id="man_layers"><option ng-repeat="layer in manufacture_layers" value="type" ng-model="manufacture.man_type">{{layer}}</option></select><div class="layerDiapasones"><div class="diapasone"><label class="control-label" for="man_diap">Диапазон: </label><span>От:<input type="text"/></span><span>До:<input type="text"/></span><span>Значение:<input type="text"/></span></div></div><span><input class="btn btn-default" type="button" id="addDiapasone" value="Добавить диапазон" ng-click="addDiapasone()"/></span></div>';
-
-    $scope.addDiapasone = function() {
-      $(".layerDiapasones").append(diapasoneEL);
-    };
+    $(".addDiapasone").click(function(event) {
+      var diapasoneEL = $(".layerDiapasones");
+      diapasoneEL.first().clone().insertBefore(event.target);
+    });
 
     $scope.addLayer = function() {
-      $(".manufactureLayers").append(layerEL);
+      var layerClone = $(".manufactureLayers").first().clone();
+
+      //layerEL.first().clone().insertBefore($(".addLayer"));
+      //var layerLabel = layerClone.children().children()[0];
+      //var layerDropdown = layerClone.children().children()[1];
+      //var layerOneDiapasone = layerClone.children().children()[2];
+      //var layerButton = layerClone.children().children()[layerClone.children().children().length - 1];
+      var childLength = layerClone.children().children().length - 1;
+      for (var i = 3; i < childLength; i++) {
+        layerClone.children().children()[3].remove();
+      };
+
+
+      layerClone.insertBefore($(".addLayer"));
+      //
+
+
+      $(".addDiapasone").off();
+      $(".addDiapasone").click(function(event) {
+        var diapasoneEL = $(".layerDiapasones");
+        diapasoneEL.first().clone().insertBefore(event.target);
+      });
     };
 
   }]);
@@ -151,3 +170,4 @@ var addressNormalize = function(address){
       console.log(newAddress);
       return newAddress;
     };
+
