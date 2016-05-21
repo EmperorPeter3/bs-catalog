@@ -1,0 +1,159 @@
+[2016-04-30 21:07:12,546][INFO ][node                     ] [Aliyah Bishop] version[2.2.0], pid[884], build[8ff36d1/2016-01-27T13:32:39Z]
+[2016-04-30 21:07:12,566][INFO ][node                     ] [Aliyah Bishop] initializing ...
+[2016-04-30 21:07:13,284][INFO ][plugins                  ] [Aliyah Bishop] modules [lang-expression, lang-groovy], plugins [license, marvel-agent], sites []
+[2016-04-30 21:07:13,316][INFO ][env                      ] [Aliyah Bishop] using [1] data paths, mounts [[Windows (C:)]], net usable_space [302.3gb], net total_space [516.5gb], spins? [unknown], types [NTFS]
+[2016-04-30 21:07:13,319][INFO ][env                      ] [Aliyah Bishop] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-04-30 21:07:17,142][INFO ][node                     ] [Aliyah Bishop] initialized
+[2016-04-30 21:07:17,143][INFO ][node                     ] [Aliyah Bishop] starting ...
+[2016-04-30 21:07:17,663][INFO ][transport                ] [Aliyah Bishop] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-04-30 21:07:17,670][INFO ][discovery                ] [Aliyah Bishop] elasticsearch/PRBFd0b3SAa-2hzkfKKmdg
+[2016-04-30 21:07:21,718][INFO ][cluster.service          ] [Aliyah Bishop] new_master {Aliyah Bishop}{PRBFd0b3SAa-2hzkfKKmdg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-30 21:07:21,888][INFO ][http                     ] [Aliyah Bishop] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-04-30 21:07:21,890][INFO ][node                     ] [Aliyah Bishop] started
+[2016-04-30 21:07:23,061][INFO ][license.plugin.core      ] [Aliyah Bishop] license [e553a35c-d414-42dd-a0ca-b223abde3239] - expired
+[2016-04-30 21:07:23,067][ERROR][license.plugin.core      ] [Aliyah Bishop] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-30 21:07:23,975][INFO ][gateway                  ] [Aliyah Bishop] recovered [21] indices into cluster_state
+[2016-04-30 21:07:38,270][INFO ][cluster.routing.allocation] [Aliyah Bishop] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.marvel-es-2016.03.13][0]] ...]).
+[2016-04-30 21:17:23,076][ERROR][license.plugin.core      ] [Aliyah Bishop] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-30 21:27:23,084][ERROR][license.plugin.core      ] [Aliyah Bishop] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-30 21:37:23,106][ERROR][license.plugin.core      ] [Aliyah Bishop] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-30 21:47:23,124][ERROR][license.plugin.core      ] [Aliyah Bishop] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-30 21:57:23,143][ERROR][license.plugin.core      ] [Aliyah Bishop] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-30 22:07:23,148][ERROR][license.plugin.core      ] [Aliyah Bishop] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-30 22:17:23,166][ERROR][license.plugin.core      ] [Aliyah Bishop] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-30 22:27:23,172][ERROR][license.plugin.core      ] [Aliyah Bishop] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-30 22:37:23,200][ERROR][license.plugin.core      ] [Aliyah Bishop] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-30 22:47:23,205][ERROR][license.plugin.core      ] [Aliyah Bishop] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-30 22:57:23,223][ERROR][license.plugin.core      ] [Aliyah Bishop] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-30 23:07:23,241][ERROR][license.plugin.core      ] [Aliyah Bishop] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-30 23:17:23,268][ERROR][license.plugin.core      ] [Aliyah Bishop] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-30 23:27:23,286][ERROR][license.plugin.core      ] [Aliyah Bishop] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-30 23:37:23,302][ERROR][license.plugin.core      ] [Aliyah Bishop] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-30 23:47:23,308][ERROR][license.plugin.core      ] [Aliyah Bishop] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-30 23:57:23,330][ERROR][license.plugin.core      ] [Aliyah Bishop] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics

@@ -1,0 +1,127 @@
+[2016-04-25 21:47:55,963][INFO ][node                     ] [Hermod] version[2.2.0], pid[12472], build[8ff36d1/2016-01-27T13:32:39Z]
+[2016-04-25 21:47:55,990][INFO ][node                     ] [Hermod] initializing ...
+[2016-04-25 21:47:56,354][INFO ][plugins                  ] [Hermod] modules [lang-expression, lang-groovy], plugins [license, marvel-agent], sites []
+[2016-04-25 21:47:56,374][INFO ][env                      ] [Hermod] using [1] data paths, mounts [[Windows (C:)]], net usable_space [301.4gb], net total_space [516.5gb], spins? [unknown], types [NTFS]
+[2016-04-25 21:47:56,376][INFO ][env                      ] [Hermod] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-04-25 21:47:58,290][INFO ][node                     ] [Hermod] initialized
+[2016-04-25 21:47:58,291][INFO ][node                     ] [Hermod] starting ...
+[2016-04-25 21:47:58,691][INFO ][transport                ] [Hermod] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-04-25 21:47:58,698][INFO ][discovery                ] [Hermod] elasticsearch/K9Jt4NmSQi-fn0kbPoinfw
+[2016-04-25 21:48:02,790][INFO ][cluster.service          ] [Hermod] new_master {Hermod}{K9Jt4NmSQi-fn0kbPoinfw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-25 21:48:02,995][INFO ][http                     ] [Hermod] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-04-25 21:48:03,000][INFO ][node                     ] [Hermod] started
+[2016-04-25 21:48:04,319][INFO ][license.plugin.core      ] [Hermod] license [e553a35c-d414-42dd-a0ca-b223abde3239] - expired
+[2016-04-25 21:48:04,323][ERROR][license.plugin.core      ] [Hermod] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-25 21:48:05,057][INFO ][gateway                  ] [Hermod] recovered [21] indices into cluster_state
+[2016-04-25 21:48:16,159][INFO ][cluster.routing.allocation] [Hermod] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.marvel-es-2016.03.13][0]] ...]).
+[2016-04-25 21:58:04,329][ERROR][license.plugin.core      ] [Hermod] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-25 22:08:04,348][ERROR][license.plugin.core      ] [Hermod] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-25 22:18:04,365][ERROR][license.plugin.core      ] [Hermod] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-25 22:28:04,383][ERROR][license.plugin.core      ] [Hermod] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-25 22:38:04,400][ERROR][license.plugin.core      ] [Hermod] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-25 22:48:04,407][ERROR][license.plugin.core      ] [Hermod] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-25 22:58:04,424][ERROR][license.plugin.core      ] [Hermod] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-25 23:08:04,439][ERROR][license.plugin.core      ] [Hermod] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-25 23:18:04,456][ERROR][license.plugin.core      ] [Hermod] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-25 23:28:04,462][ERROR][license.plugin.core      ] [Hermod] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-25 23:38:04,468][ERROR][license.plugin.core      ] [Hermod] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-25 23:48:04,487][ERROR][license.plugin.core      ] [Hermod] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-25 23:58:04,504][ERROR][license.plugin.core      ] [Hermod] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics

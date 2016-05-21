@@ -1,0 +1,475 @@
+[2016-05-18 16:25:08,790][INFO ][node                     ] [Joshua Guthrie] version[2.2.0], pid[2248], build[8ff36d1/2016-01-27T13:32:39Z]
+[2016-05-18 16:25:08,808][INFO ][node                     ] [Joshua Guthrie] initializing ...
+[2016-05-18 16:25:09,314][INFO ][plugins                  ] [Joshua Guthrie] modules [lang-expression, lang-groovy], plugins [license, marvel-agent], sites []
+[2016-05-18 16:25:09,332][INFO ][env                      ] [Joshua Guthrie] using [1] data paths, mounts [[Windows (C:)]], net usable_space [299.3gb], net total_space [516.5gb], spins? [unknown], types [NTFS]
+[2016-05-18 16:25:09,341][INFO ][env                      ] [Joshua Guthrie] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-18 16:25:11,586][INFO ][node                     ] [Joshua Guthrie] initialized
+[2016-05-18 16:25:11,587][INFO ][node                     ] [Joshua Guthrie] starting ...
+[2016-05-18 16:25:11,911][INFO ][transport                ] [Joshua Guthrie] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-18 16:25:11,955][INFO ][discovery                ] [Joshua Guthrie] elasticsearch/5M3-KuLhQgeJMw-8ia_10Q
+[2016-05-18 16:25:16,041][INFO ][cluster.service          ] [Joshua Guthrie] new_master {Joshua Guthrie}{5M3-KuLhQgeJMw-8ia_10Q}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-18 16:25:16,234][INFO ][http                     ] [Joshua Guthrie] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-18 16:25:16,237][INFO ][node                     ] [Joshua Guthrie] started
+[2016-05-18 16:25:17,137][INFO ][license.plugin.core      ] [Joshua Guthrie] license [e553a35c-d414-42dd-a0ca-b223abde3239] - expired
+[2016-05-18 16:25:17,143][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-18 16:25:17,848][INFO ][gateway                  ] [Joshua Guthrie] recovered [21] indices into cluster_state
+[2016-05-18 16:25:31,552][INFO ][cluster.routing.allocation] [Joshua Guthrie] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.marvel-es-2016.03.13][0]] ...]).
+[2016-05-18 16:29:36,698][INFO ][rest.suppressed          ] /_all/_manufacture Params: {index=_all, type=_manufacture}
+java.lang.IllegalArgumentException: No feature for name [_manufacture]
+	at org.elasticsearch.action.admin.indices.get.GetIndexRequest$Feature.fromName(GetIndexRequest.java:82)
+	at org.elasticsearch.action.admin.indices.get.GetIndexRequest$Feature.convertToFeatures(GetIndexRequest.java:95)
+	at org.elasticsearch.rest.action.admin.indices.get.RestGetIndicesAction.handleRequest(RestGetIndicesAction.java:77)
+	at org.elasticsearch.rest.BaseRestHandler.handleRequest(BaseRestHandler.java:54)
+	at org.elasticsearch.rest.RestController.executeHandler(RestController.java:207)
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:166)
+	at org.elasticsearch.http.HttpServer.internalDispatchRequest(HttpServer.java:128)
+	at org.elasticsearch.http.HttpServer$Dispatcher.dispatchRequest(HttpServer.java:86)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.dispatchRequest(NettyHttpServerTransport.java:363)
+	at org.elasticsearch.http.netty.HttpRequestHandler.messageReceived(HttpRequestHandler.java:63)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.http.netty.pipelining.HttpPipeliningHandler.messageReceived(HttpPipeliningHandler.java:60)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleUpstream(SimpleChannelHandler.java:88)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpChunkAggregator.messageReceived(HttpChunkAggregator.java:145)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpContentDecoder.messageReceived(HttpContentDecoder.java:108)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:459)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.callDecode(ReplayingDecoder.java:536)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.messageReceived(ReplayingDecoder.java:435)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:75)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-05-18 16:29:40,154][INFO ][rest.suppressed          ] /_all/_manufactures Params: {index=_all, type=_manufactures}
+java.lang.IllegalArgumentException: No feature for name [_manufactures]
+	at org.elasticsearch.action.admin.indices.get.GetIndexRequest$Feature.fromName(GetIndexRequest.java:82)
+	at org.elasticsearch.action.admin.indices.get.GetIndexRequest$Feature.convertToFeatures(GetIndexRequest.java:95)
+	at org.elasticsearch.rest.action.admin.indices.get.RestGetIndicesAction.handleRequest(RestGetIndicesAction.java:77)
+	at org.elasticsearch.rest.BaseRestHandler.handleRequest(BaseRestHandler.java:54)
+	at org.elasticsearch.rest.RestController.executeHandler(RestController.java:207)
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:166)
+	at org.elasticsearch.http.HttpServer.internalDispatchRequest(HttpServer.java:128)
+	at org.elasticsearch.http.HttpServer$Dispatcher.dispatchRequest(HttpServer.java:86)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.dispatchRequest(NettyHttpServerTransport.java:363)
+	at org.elasticsearch.http.netty.HttpRequestHandler.messageReceived(HttpRequestHandler.java:63)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.http.netty.pipelining.HttpPipeliningHandler.messageReceived(HttpPipeliningHandler.java:60)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleUpstream(SimpleChannelHandler.java:88)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpChunkAggregator.messageReceived(HttpChunkAggregator.java:145)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpContentDecoder.messageReceived(HttpContentDecoder.java:108)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:459)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.callDecode(ReplayingDecoder.java:536)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.messageReceived(ReplayingDecoder.java:435)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:75)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-05-18 16:29:46,505][INFO ][rest.suppressed          ] /_all/manufactures Params: {index=_all, type=manufactures}
+java.lang.IllegalArgumentException: No feature for name [manufactures]
+	at org.elasticsearch.action.admin.indices.get.GetIndexRequest$Feature.fromName(GetIndexRequest.java:82)
+	at org.elasticsearch.action.admin.indices.get.GetIndexRequest$Feature.convertToFeatures(GetIndexRequest.java:95)
+	at org.elasticsearch.rest.action.admin.indices.get.RestGetIndicesAction.handleRequest(RestGetIndicesAction.java:77)
+	at org.elasticsearch.rest.BaseRestHandler.handleRequest(BaseRestHandler.java:54)
+	at org.elasticsearch.rest.RestController.executeHandler(RestController.java:207)
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:166)
+	at org.elasticsearch.http.HttpServer.internalDispatchRequest(HttpServer.java:128)
+	at org.elasticsearch.http.HttpServer$Dispatcher.dispatchRequest(HttpServer.java:86)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.dispatchRequest(NettyHttpServerTransport.java:363)
+	at org.elasticsearch.http.netty.HttpRequestHandler.messageReceived(HttpRequestHandler.java:63)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.http.netty.pipelining.HttpPipeliningHandler.messageReceived(HttpPipeliningHandler.java:60)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleUpstream(SimpleChannelHandler.java:88)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpChunkAggregator.messageReceived(HttpChunkAggregator.java:145)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpContentDecoder.messageReceived(HttpContentDecoder.java:108)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:459)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.callDecode(ReplayingDecoder.java:536)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.messageReceived(ReplayingDecoder.java:435)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:75)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-05-18 16:30:02,018][INFO ][rest.suppressed          ] /manufactures/all Params: {index=manufactures, type=all}
+java.lang.IllegalArgumentException: No feature for name [all]
+	at org.elasticsearch.action.admin.indices.get.GetIndexRequest$Feature.fromName(GetIndexRequest.java:82)
+	at org.elasticsearch.action.admin.indices.get.GetIndexRequest$Feature.convertToFeatures(GetIndexRequest.java:95)
+	at org.elasticsearch.rest.action.admin.indices.get.RestGetIndicesAction.handleRequest(RestGetIndicesAction.java:77)
+	at org.elasticsearch.rest.BaseRestHandler.handleRequest(BaseRestHandler.java:54)
+	at org.elasticsearch.rest.RestController.executeHandler(RestController.java:207)
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:166)
+	at org.elasticsearch.http.HttpServer.internalDispatchRequest(HttpServer.java:128)
+	at org.elasticsearch.http.HttpServer$Dispatcher.dispatchRequest(HttpServer.java:86)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.dispatchRequest(NettyHttpServerTransport.java:363)
+	at org.elasticsearch.http.netty.HttpRequestHandler.messageReceived(HttpRequestHandler.java:63)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.http.netty.pipelining.HttpPipeliningHandler.messageReceived(HttpPipeliningHandler.java:60)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleUpstream(SimpleChannelHandler.java:88)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpChunkAggregator.messageReceived(HttpChunkAggregator.java:145)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpContentDecoder.messageReceived(HttpContentDecoder.java:108)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:459)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.callDecode(ReplayingDecoder.java:536)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.messageReceived(ReplayingDecoder.java:435)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:75)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-05-18 16:35:17,148][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-18 16:45:17,153][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-18 16:55:17,160][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-18 17:05:17,179][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-18 17:15:17,187][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-18 17:25:17,192][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-18 17:35:17,210][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-18 17:45:17,228][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-18 17:55:17,256][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-18 18:05:17,275][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-18 18:15:17,293][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-18 18:25:17,310][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-18 18:35:17,327][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-18 18:45:17,344][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-18 18:55:17,356][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-18 19:05:17,374][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-18 19:15:17,392][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-18 19:25:17,410][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-18 19:35:17,420][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-18 19:45:17,437][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-18 19:55:17,461][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-18 20:05:17,482][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-18 22:23:15,511][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-18 22:33:16,009][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-18 22:43:16,026][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-18 22:53:16,044][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-18 23:03:16,062][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-18 23:13:16,068][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-18 23:23:16,094][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-18 23:33:16,112][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-18 23:43:16,141][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-18 23:53:16,165][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics

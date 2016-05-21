@@ -1,0 +1,636 @@
+[2016-04-28 00:02:23,110][ERROR][license.plugin.core      ] [Lord Dark Wind] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 00:12:23,125][ERROR][license.plugin.core      ] [Lord Dark Wind] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 00:22:23,129][ERROR][license.plugin.core      ] [Lord Dark Wind] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 00:32:23,134][ERROR][license.plugin.core      ] [Lord Dark Wind] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 16:04:31,193][INFO ][node                     ] [Bethany Cabe] version[2.2.0], pid[5136], build[8ff36d1/2016-01-27T13:32:39Z]
+[2016-04-28 16:04:31,209][INFO ][node                     ] [Bethany Cabe] initializing ...
+[2016-04-28 16:04:31,569][INFO ][plugins                  ] [Bethany Cabe] modules [lang-expression, lang-groovy], plugins [license, marvel-agent], sites []
+[2016-04-28 16:04:31,587][INFO ][env                      ] [Bethany Cabe] using [1] data paths, mounts [[Windows (C:)]], net usable_space [304gb], net total_space [516.5gb], spins? [unknown], types [NTFS]
+[2016-04-28 16:04:31,590][INFO ][env                      ] [Bethany Cabe] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-04-28 16:04:33,797][INFO ][node                     ] [Bethany Cabe] initialized
+[2016-04-28 16:04:33,798][INFO ][node                     ] [Bethany Cabe] starting ...
+[2016-04-28 16:04:34,181][INFO ][transport                ] [Bethany Cabe] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-04-28 16:04:34,249][INFO ][discovery                ] [Bethany Cabe] elasticsearch/P7TsyFpmRJCjB9FBZBr2xA
+[2016-04-28 16:04:38,371][INFO ][cluster.service          ] [Bethany Cabe] new_master {Bethany Cabe}{P7TsyFpmRJCjB9FBZBr2xA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-28 16:04:38,553][INFO ][http                     ] [Bethany Cabe] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-04-28 16:04:38,555][INFO ][node                     ] [Bethany Cabe] started
+[2016-04-28 16:04:39,460][INFO ][license.plugin.core      ] [Bethany Cabe] license [e553a35c-d414-42dd-a0ca-b223abde3239] - expired
+[2016-04-28 16:04:39,465][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 16:04:40,231][INFO ][gateway                  ] [Bethany Cabe] recovered [21] indices into cluster_state
+[2016-04-28 16:04:53,938][INFO ][cluster.routing.allocation] [Bethany Cabe] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.marvel-es-data][0]] ...]).
+[2016-04-28 16:14:39,473][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 16:24:39,479][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 16:34:39,486][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 16:44:39,504][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 16:54:39,523][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 17:04:39,532][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 17:14:39,549][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 17:24:39,555][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 17:34:39,562][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 17:39:16,989][DEBUG][action.index             ] [Bethany Cabe] failed to execute [index {[manufactures][manufacture][AVRdT0X7gURQw4t1ayQR], source[_na_]}] on [[manufactures][3]]
+MapperParsingException[failed to parse, document is empty]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseDocument(DocumentParser.java:160)
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:79)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:304)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreate(IndexShard.java:500)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreateOnPrimary(IndexShard.java:481)
+	at org.elasticsearch.action.index.TransportIndexAction.prepareIndexOperationOnPrimary(TransportIndexAction.java:214)
+	at org.elasticsearch.action.index.TransportIndexAction.executeIndexRequestOnPrimary(TransportIndexAction.java:223)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:157)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:65)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryPhase.doRun(TransportReplicationAction.java:595)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:263)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:260)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-28 17:39:17,035][INFO ][rest.suppressed          ] /manufactures/manufacture/ Params: {index=manufactures, type=manufacture}
+RemoteTransportException[[Bethany Cabe][127.0.0.1:9300][indices:data/write/index[p]]]; nested: MapperParsingException[failed to parse, document is empty];
+Caused by: MapperParsingException[failed to parse, document is empty]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseDocument(DocumentParser.java:160)
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:79)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:304)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreate(IndexShard.java:500)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreateOnPrimary(IndexShard.java:481)
+	at org.elasticsearch.action.index.TransportIndexAction.prepareIndexOperationOnPrimary(TransportIndexAction.java:214)
+	at org.elasticsearch.action.index.TransportIndexAction.executeIndexRequestOnPrimary(TransportIndexAction.java:223)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:157)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:65)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryPhase.doRun(TransportReplicationAction.java:595)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:263)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:260)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-28 17:40:44,738][DEBUG][action.index             ] [Bethany Cabe] failed to execute [index {[manufactures][manufacture][AVRdUJzBgURQw4t1ayQS], source[_na_]}] on [[manufactures][1]]
+MapperParsingException[failed to parse, document is empty]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseDocument(DocumentParser.java:160)
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:79)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:304)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreate(IndexShard.java:500)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreateOnPrimary(IndexShard.java:481)
+	at org.elasticsearch.action.index.TransportIndexAction.prepareIndexOperationOnPrimary(TransportIndexAction.java:214)
+	at org.elasticsearch.action.index.TransportIndexAction.executeIndexRequestOnPrimary(TransportIndexAction.java:223)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:157)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:65)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryPhase.doRun(TransportReplicationAction.java:595)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:263)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:260)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-28 17:40:44,766][INFO ][rest.suppressed          ] /manufactures/manufacture/ Params: {index=manufactures, type=manufacture}
+RemoteTransportException[[Bethany Cabe][127.0.0.1:9300][indices:data/write/index[p]]]; nested: MapperParsingException[failed to parse, document is empty];
+Caused by: MapperParsingException[failed to parse, document is empty]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseDocument(DocumentParser.java:160)
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:79)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:304)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreate(IndexShard.java:500)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreateOnPrimary(IndexShard.java:481)
+	at org.elasticsearch.action.index.TransportIndexAction.prepareIndexOperationOnPrimary(TransportIndexAction.java:214)
+	at org.elasticsearch.action.index.TransportIndexAction.executeIndexRequestOnPrimary(TransportIndexAction.java:223)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:157)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:65)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryPhase.doRun(TransportReplicationAction.java:595)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:263)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:260)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-28 17:44:09,575][DEBUG][action.index             ] [Bethany Cabe] failed to execute [index {[manufactures][manufacture][AVRdU7zmgURQw4t1ayQT], source[_na_]}] on [[manufactures][2]]
+MapperParsingException[failed to parse, document is empty]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseDocument(DocumentParser.java:160)
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:79)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:304)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreate(IndexShard.java:500)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreateOnPrimary(IndexShard.java:481)
+	at org.elasticsearch.action.index.TransportIndexAction.prepareIndexOperationOnPrimary(TransportIndexAction.java:214)
+	at org.elasticsearch.action.index.TransportIndexAction.executeIndexRequestOnPrimary(TransportIndexAction.java:223)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:157)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:65)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryPhase.doRun(TransportReplicationAction.java:595)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:263)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:260)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-28 17:44:09,606][INFO ][rest.suppressed          ] /manufactures/manufacture/ Params: {index=manufactures, type=manufacture}
+RemoteTransportException[[Bethany Cabe][127.0.0.1:9300][indices:data/write/index[p]]]; nested: MapperParsingException[failed to parse, document is empty];
+Caused by: MapperParsingException[failed to parse, document is empty]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseDocument(DocumentParser.java:160)
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:79)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:304)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreate(IndexShard.java:500)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreateOnPrimary(IndexShard.java:481)
+	at org.elasticsearch.action.index.TransportIndexAction.prepareIndexOperationOnPrimary(TransportIndexAction.java:214)
+	at org.elasticsearch.action.index.TransportIndexAction.executeIndexRequestOnPrimary(TransportIndexAction.java:223)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:157)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:65)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryPhase.doRun(TransportReplicationAction.java:595)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:263)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:260)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-28 17:44:39,582][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 17:45:49,392][DEBUG][action.index             ] [Bethany Cabe] failed to execute [index {[manufactures][manufacture][AVRdVULPgURQw4t1ayQU], source[_na_]}] on [[manufactures][2]]
+MapperParsingException[failed to parse, document is empty]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseDocument(DocumentParser.java:160)
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:79)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:304)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreate(IndexShard.java:500)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreateOnPrimary(IndexShard.java:481)
+	at org.elasticsearch.action.index.TransportIndexAction.prepareIndexOperationOnPrimary(TransportIndexAction.java:214)
+	at org.elasticsearch.action.index.TransportIndexAction.executeIndexRequestOnPrimary(TransportIndexAction.java:223)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:157)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:65)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryPhase.doRun(TransportReplicationAction.java:595)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:263)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:260)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-28 17:45:49,431][INFO ][rest.suppressed          ] /manufactures/manufacture/ Params: {index=manufactures, type=manufacture}
+RemoteTransportException[[Bethany Cabe][127.0.0.1:9300][indices:data/write/index[p]]]; nested: MapperParsingException[failed to parse, document is empty];
+Caused by: MapperParsingException[failed to parse, document is empty]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseDocument(DocumentParser.java:160)
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:79)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:304)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreate(IndexShard.java:500)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreateOnPrimary(IndexShard.java:481)
+	at org.elasticsearch.action.index.TransportIndexAction.prepareIndexOperationOnPrimary(TransportIndexAction.java:214)
+	at org.elasticsearch.action.index.TransportIndexAction.executeIndexRequestOnPrimary(TransportIndexAction.java:223)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:157)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:65)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryPhase.doRun(TransportReplicationAction.java:595)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:263)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:260)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-28 17:54:39,600][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 18:04:39,618][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 18:14:39,636][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 18:24:39,656][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 18:34:39,664][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 18:36:16,987][DEBUG][action.index             ] [Bethany Cabe] failed to execute [index {[manufactures][manufacture][AVRdg3VagURQw4t1ayQZ], source[_na_]}] on [[manufactures][0]]
+MapperParsingException[failed to parse, document is empty]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseDocument(DocumentParser.java:160)
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:79)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:304)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreate(IndexShard.java:500)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreateOnPrimary(IndexShard.java:481)
+	at org.elasticsearch.action.index.TransportIndexAction.prepareIndexOperationOnPrimary(TransportIndexAction.java:214)
+	at org.elasticsearch.action.index.TransportIndexAction.executeIndexRequestOnPrimary(TransportIndexAction.java:223)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:157)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:65)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryPhase.doRun(TransportReplicationAction.java:595)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:263)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:260)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-28 18:36:17,017][INFO ][rest.suppressed          ] /manufactures/manufacture/ Params: {index=manufactures, type=manufacture}
+RemoteTransportException[[Bethany Cabe][127.0.0.1:9300][indices:data/write/index[p]]]; nested: MapperParsingException[failed to parse, document is empty];
+Caused by: MapperParsingException[failed to parse, document is empty]
+	at org.elasticsearch.index.mapper.DocumentParser.innerParseDocument(DocumentParser.java:160)
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:79)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:304)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreate(IndexShard.java:500)
+	at org.elasticsearch.index.shard.IndexShard.prepareCreateOnPrimary(IndexShard.java:481)
+	at org.elasticsearch.action.index.TransportIndexAction.prepareIndexOperationOnPrimary(TransportIndexAction.java:214)
+	at org.elasticsearch.action.index.TransportIndexAction.executeIndexRequestOnPrimary(TransportIndexAction.java:223)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:157)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:65)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryPhase.doRun(TransportReplicationAction.java:595)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:263)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:260)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-28 18:44:39,669][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 18:54:39,677][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 19:04:39,698][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 19:14:39,705][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 19:24:39,711][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 19:34:39,727][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 19:44:39,733][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 19:54:39,739][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 20:04:39,744][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 20:14:39,750][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 20:24:39,755][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 20:34:39,764][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 20:44:39,782][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 20:54:39,801][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 21:04:39,818][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 21:14:39,824][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 21:24:39,842][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 21:34:39,861][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 21:44:39,883][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 21:54:39,902][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 22:04:39,914][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 22:14:39,938][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 22:24:39,944][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 22:34:39,949][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 22:44:39,955][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 22:54:39,962][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 23:04:39,979][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 23:14:39,984][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 23:24:40,074][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 23:34:40,080][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 23:44:40,098][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-28 23:54:40,117][ERROR][license.plugin.core      ] [Bethany Cabe] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics

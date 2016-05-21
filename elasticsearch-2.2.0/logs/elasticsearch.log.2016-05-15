@@ -1,0 +1,39 @@
+[2016-05-15 23:36:42,412][INFO ][node                     ] [Theresa Cassidy] version[2.2.0], pid[5732], build[8ff36d1/2016-01-27T13:32:39Z]
+[2016-05-15 23:36:42,428][INFO ][node                     ] [Theresa Cassidy] initializing ...
+[2016-05-15 23:36:42,811][INFO ][plugins                  ] [Theresa Cassidy] modules [lang-expression, lang-groovy], plugins [license, marvel-agent], sites []
+[2016-05-15 23:36:42,828][INFO ][env                      ] [Theresa Cassidy] using [1] data paths, mounts [[Windows (C:)]], net usable_space [299.8gb], net total_space [516.5gb], spins? [unknown], types [NTFS]
+[2016-05-15 23:36:42,828][INFO ][env                      ] [Theresa Cassidy] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-15 23:36:44,409][INFO ][node                     ] [Theresa Cassidy] initialized
+[2016-05-15 23:36:44,409][INFO ][node                     ] [Theresa Cassidy] starting ...
+[2016-05-15 23:36:44,647][INFO ][transport                ] [Theresa Cassidy] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-15 23:36:44,647][INFO ][discovery                ] [Theresa Cassidy] elasticsearch/oVc4OqapRv2PLBj2hlnwOw
+[2016-05-15 23:36:48,776][INFO ][cluster.service          ] [Theresa Cassidy] new_master {Theresa Cassidy}{oVc4OqapRv2PLBj2hlnwOw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-15 23:36:48,976][INFO ][http                     ] [Theresa Cassidy] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-15 23:36:48,993][INFO ][node                     ] [Theresa Cassidy] started
+[2016-05-15 23:36:50,252][INFO ][license.plugin.core      ] [Theresa Cassidy] license [e553a35c-d414-42dd-a0ca-b223abde3239] - expired
+[2016-05-15 23:36:50,252][ERROR][license.plugin.core      ] [Theresa Cassidy] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-15 23:36:50,980][INFO ][gateway                  ] [Theresa Cassidy] recovered [21] indices into cluster_state
+[2016-05-15 23:37:03,691][INFO ][cluster.routing.allocation] [Theresa Cassidy] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.marvel-es-2016.03.13][0]] ...]).
+[2016-05-15 23:46:50,266][ERROR][license.plugin.core      ] [Theresa Cassidy] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-05-15 23:56:50,282][ERROR][license.plugin.core      ] [Theresa Cassidy] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
