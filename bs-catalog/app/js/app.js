@@ -5,7 +5,8 @@
 var bsCatalogApp = angular.module('bsCatalogApp', [
   'ngRoute',
   'bsCatalogControllers',
-  'elasticui'
+  'elasticui',
+  'ngMap'
 ]);
 
 bsCatalogApp.constant('euiHost', 'http://localhost:9200');

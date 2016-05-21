@@ -1,0 +1,14 @@
+{
+ "mappings" : {
+  "manufacture" : {
+   "properties" : {
+    "manufacture_name" : {"type": "string" },
+    "company_name" : { "type": "string" },
+    "company_director" : { "type" : "string" },
+    "director_phone" : { "type" : "string" }
+   }
+  }
+ }
+}
+
+

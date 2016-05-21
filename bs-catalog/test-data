@@ -1,0 +1,10 @@
+{"index":{"_index":"manufactures","_type":"manufacture"}}
+{"manufacture_name":"mining","company_name":"Norilsk Nickel","company_director":"Mikhail Prokhorov","director_phone":"89041005555"}
+{"index":{"_index":"manufactures","_type":"manufacture"}}
+{"manufacture_name":"jewelery","company_name":"Adamant","company_director":"Vladimir Karkavin","director_phone":"88622702050"}
+{"index":{"_index":"manufactures","_type":"manufacture"}}
+{"manufacture_name":"IT","company_name":"SAP Labs","company_director":"Roman Dedushev","director_phone":"89318009999"}
+{"index":{"_index":"manufactures","_type":"manufacture"}}
+{"manufacture_name":"Alchemy","company_name":"Alch and Co","company_director":"Jizn Ner'zul","director_phone":"89996660000"}
+{"index":{"_index":"manufactures","_type":"manufacture"}}
+{"manufacture_name":"Tailoring","company_name":"Fedora's pants","company_director":"Fedora Egorova","director_phone":"89627112050"}
