@@ -1,4 +1,17 @@
-[2016-05-19 00:03:16,188][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+[2016-05-24 17:48:03,764][INFO ][node                     ] [Sabreclaw] version[2.2.0], pid[11348], build[8ff36d1/2016-01-27T13:32:39Z]
+[2016-05-24 17:48:03,811][INFO ][node                     ] [Sabreclaw] initializing ...
+[2016-05-24 17:48:04,297][INFO ][plugins                  ] [Sabreclaw] modules [lang-expression, lang-groovy], plugins [license, marvel-agent], sites []
+[2016-05-24 17:48:04,335][INFO ][env                      ] [Sabreclaw] using [1] data paths, mounts [[Windows (C:)]], net usable_space [301.1gb], net total_space [516.5gb], spins? [unknown], types [NTFS]
+[2016-05-24 17:48:04,351][INFO ][env                      ] [Sabreclaw] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-24 17:48:12,299][INFO ][node                     ] [Sabreclaw] initialized
+[2016-05-24 17:48:12,299][INFO ][node                     ] [Sabreclaw] starting ...
+[2016-05-24 17:48:12,916][INFO ][transport                ] [Sabreclaw] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-24 17:48:12,932][INFO ][discovery                ] [Sabreclaw] elasticsearch/VKkaVikJT62bC4arQwhRoA
+[2016-05-24 17:48:17,002][INFO ][cluster.service          ] [Sabreclaw] new_master {Sabreclaw}{VKkaVikJT62bC4arQwhRoA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-24 17:48:17,187][INFO ][http                     ] [Sabreclaw] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-24 17:48:17,203][INFO ][node                     ] [Sabreclaw] started
+[2016-05-24 17:48:18,631][INFO ][license.plugin.core      ] [Sabreclaw] license [e553a35c-d414-42dd-a0ca-b223abde3239] - expired
+[2016-05-24 17:48:18,631][ERROR][license.plugin.core      ] [Sabreclaw] 
 #
 # LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
 # UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
@@ -6,7 +19,9 @@
 # COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
 # - marvel
 #  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 00:13:16,221][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+[2016-05-24 17:48:19,666][INFO ][gateway                  ] [Sabreclaw] recovered [21] indices into cluster_state
+[2016-05-24 17:48:34,102][INFO ][cluster.routing.allocation] [Sabreclaw] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.marvel-es-2016.03.13][0]] ...]).
+[2016-05-24 17:58:18,661][ERROR][license.plugin.core      ] [Sabreclaw] 
 #
 # LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
 # UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
@@ -14,7 +29,7 @@
 # COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
 # - marvel
 #  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 00:23:15,769][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+[2016-05-24 18:08:18,693][ERROR][license.plugin.core      ] [Sabreclaw] 
 #
 # LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
 # UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
@@ -22,7 +37,7 @@
 # COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
 # - marvel
 #  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 00:33:15,773][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+[2016-05-24 18:18:18,715][ERROR][license.plugin.core      ] [Sabreclaw] 
 #
 # LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
 # UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
@@ -30,7 +45,7 @@
 # COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
 # - marvel
 #  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 00:43:15,792][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+[2016-05-24 18:28:18,729][ERROR][license.plugin.core      ] [Sabreclaw] 
 #
 # LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
 # UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
@@ -38,7 +53,7 @@
 # COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
 # - marvel
 #  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 00:53:15,809][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+[2016-05-24 18:38:18,737][ERROR][license.plugin.core      ] [Sabreclaw] 
 #
 # LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
 # UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
@@ -46,7 +61,7 @@
 # COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
 # - marvel
 #  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 01:03:15,814][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+[2016-05-24 18:48:18,759][ERROR][license.plugin.core      ] [Sabreclaw] 
 #
 # LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
 # UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
@@ -54,7 +69,7 @@
 # COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
 # - marvel
 #  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 01:13:15,826][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+[2016-05-24 18:58:18,776][ERROR][license.plugin.core      ] [Sabreclaw] 
 #
 # LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
 # UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
@@ -62,339 +77,7 @@
 # COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
 # - marvel
 #  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 01:23:15,843][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 01:33:15,849][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 01:43:15,868][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 01:53:15,888][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 02:03:15,910][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 02:13:15,929][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 02:23:15,946][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 02:33:15,951][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 02:43:15,968][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 02:53:15,976][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 03:03:15,981][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 03:13:15,987][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 03:23:16,005][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 03:33:16,011][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 03:43:16,024][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 03:53:16,041][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 04:03:16,058][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 04:13:16,068][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 04:23:16,072][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 04:33:16,078][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 04:43:16,097][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 04:53:16,102][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 15:28:29,205][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 15:38:29,257][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 15:48:29,277][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 15:58:29,294][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 16:08:29,312][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 16:18:29,330][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 16:28:29,344][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 16:38:29,361][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 16:48:29,367][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 16:58:29,385][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 17:08:29,396][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 17:18:29,401][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 17:28:29,419][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 17:38:29,436][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 17:48:29,454][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 17:58:29,471][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 21:48:04,503][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 21:58:05,019][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 22:08:05,031][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
-[2016-05-19 22:18:05,049][ERROR][license.plugin.core      ] [Joshua Guthrie] 
-#
-# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
-# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
-# 
-# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
-# - marvel
-#  - The agent will stop collecting cluster and indices metrics
+[2016-05-24 19:08:13,026][INFO ][node                     ] [Sabreclaw] stopping ...
+[2016-05-24 19:08:14,057][INFO ][node                     ] [Sabreclaw] stopped
+[2016-05-24 19:08:14,057][INFO ][node                     ] [Sabreclaw] closing ...
+[2016-05-24 19:08:14,078][INFO ][node                     ] [Sabreclaw] closed

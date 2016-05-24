@@ -100,66 +100,89 @@ bsCatalogControllers.controller('BusinessAddCtrl', ['$scope', '$routeParams', '$
 
 bsCatalogControllers.controller('editManufactureCtrl', ['$scope', '$http',
   function($scope, $http) {
-    $scope.manufacture_types = [
-    "Заготовка сырья",
-    "Консалтинг, инжиниринг, продажа ноу-хау", 
-    "Культура и креативные индустрии", 
-    "Кооперативы всех типов", 
-    "Легкая промышленность",
-    "Лесная отрасль", 
-    "Местная автономная энергетика",
-    "Местная химическая промышленность", 
-    "Обработка металла, производство изделий из металла",
-    "Образовательные услуги", 
-    "Переработка лесного сырья",
-    "Переработка мусора",
-    "Переработка сельхозпродукции",
-    "Пищевая промышленность",
-    "Производства в сфере программирования, IT, фриланс",
-    "Производство машин и оборудования", 
-    "Производство косметики", 
-    "Производство медикаментов", 
-    "Производство сувениров", 
-    "Сельскохозяйственное производство" 
-    ];
 
-    $scope.manufacture_layers = [
-    "temperature",
-    "forest",
-    "water"
-    ];
+    $scope.manufacture = [{
+    "manufacture_types": 
+    [
+      "Заготовка сырья",
+      "Консалтинг, инжиниринг, продажа ноу-хау", 
+      "Культура и креативные индустрии", 
+      "Кооперативы всех типов", 
+      "Легкая промышленность",
+      "Лесная отрасль", 
+      "Местная автономная энергетика",
+      "Местная химическая промышленность", 
+      "Обработка металла, производство изделий из металла",
+      "Образовательные услуги", 
+      "Переработка лесного сырья",
+      "Переработка мусора",
+      "Переработка сельхозпродукции",
+      "Пищевая промышленность",
+      "Производства в сфере программирования, IT, фриланс",
+      "Производство машин и оборудования", 
+      "Производство косметики", 
+      "Производство медикаментов", 
+      "Производство сувениров", 
+      "Сельскохозяйственное производство" 
+    ],
+    "manufacture_layers":
+    [
+      {
+        "number":0,
+        "type":"",
+        "types":
+        [
+          "temperature",
+          "forest",
+          "water"
+        ],
+        "diapasones":
+        [
+          {
+            "From":"",
+            "To":"",
+            "Value":""
+          }
+        ]
+      }
+    ]
+    }];
 
-    $(".addDiapasone").click(function(event) {
-      var diapasoneEL = $(".layerDiapasones");
-      diapasoneEL.first().clone().insertBefore(event.target);
-    });
-
-    $scope.addLayer = function() {
-      var layerClone = $(".manufactureLayers").first().clone();
-
-      //layerEL.first().clone().insertBefore($(".addLayer"));
-      //var layerLabel = layerClone.children().children()[0];
-      //var layerDropdown = layerClone.children().children()[1];
-      //var layerOneDiapasone = layerClone.children().children()[2];
-      //var layerButton = layerClone.children().children()[layerClone.children().children().length - 1];
-      var childLength = layerClone.children().children().length - 1;
-      for (var i = 3; i < childLength; i++) {
-        layerClone.children().children()[3].remove();
-      };
-
-
-      layerClone.insertBefore($(".addLayer"));
-      //
-
-
-      $(".addDiapasone").off();
-      $(".addDiapasone").click(function(event) {
-        var diapasoneEL = $(".layerDiapasones");
-        diapasoneEL.first().clone().insertBefore(event.target);
-      });
+    $scope.addDiapasone = function(layer_number) {
+      $scope.manufacture[0].manufacture_layers[layer_number].diapasones = $scope.manufacture[0].manufacture_layers[layer_number].diapasones.concat([{
+        "From":"",
+        "To":"",
+        "Value":""
+      }]);   
     };
 
-  }]);
+    $scope.addLayer = function() {
+      $scope.manufacture[0].manufacture_layers = $scope.manufacture[0].manufacture_layers.concat([{
+        "number":$scope.manufacture[0].manufacture_layers.length,
+        "type":"",
+        "types":
+        [
+          "temperature",
+          "forest",
+          "water"
+        ],
+        "diapasones":
+        [
+        {
+          "From":"",
+          "To":"",
+          "Value":""
+        }
+        ]
+      }]);  
+    };
+
+    $scope.updateManufacture = function() {
+      console.log($scope.manufacture);
+    };
+
+  }
+]);
 
 
 //Additional to BusinessDetailController

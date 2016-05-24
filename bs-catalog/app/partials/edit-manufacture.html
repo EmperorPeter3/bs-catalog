@@ -3,102 +3,39 @@
 		<div class="col-md-offset-3 col-md-6">
 			<form class="form-horizontal" novalidate name="editManufactureForm" role="form">
 				<!-- Manufacture type group -->
-				<div class="control-group manufactureType col-md-10">
+				<div class="control-group manufactureType col-md-10" ng-repeat="mfc in manufacture">
 					<!-- Label "Manufacture type:" - Dropdown select-->
 					<label class="control-label" for="man_types">Тип производства: </label>
 			    	<select class="controls" id="man_types">
-			    	  <option ng-repeat="type in manufacture_types" value="type" ng-model="manufacture.man_type">{{type}}</option>
+			    	  <option ng-repeat="type in mfc.manufacture_types" value="type">{{type}}</option>
 			    	</select>
 				
 					<div class="control-group manufactureLayers">
 					<!-- Layer-diapasone group -->
-						<div class="control-group layer">
+						<div class="control-group layer" ng-repeat="layer in mfc.manufacture_layers">
 							<!-- Label "Layer:" - Dropdown select -->
 							<label class="control-label" for="man_layers">Слой: </label>
 					    	<select class="controls" id="man_layers">
-					    	  <option ng-repeat="layer in manufacture_layers" value="type" ng-model="manufacture.man_type">{{layer}}</option>
+					    	  <option ng-repeat="l_type in layer.types" value="type" ng-model="layer.type">{{l_type}}</option>
 					    	</select>
 					    	<div class="layerDiapasones">
-						    	<div class="diapasone">
+						    	<div class="diapasone" ng-repeat="diap in layer.diapasones">
 						    		<label class="control-label">Диапазон: </label>
-						    		<span>От:<input type="text"/></span>
-						    		<span>До:<input type="text"/></span>
-						    		<span>Значение:<input type="text"/></span>
+						    		<span>От:<input type="text" ng-model="diap.From"/></span>
+						    		<span>До:<input type="text" ng-model="diap.To"/></span>
+						    		<span>Значение:<input type="text" ng-model="diap.Value"/></span>
 						    	</div>
 					    	</div>
-					    	<input class="btn btn-default addDiapasone" type="button" value="Добавить диапазон" ng-click="addDiapasone()"/>
+					    	<input class="btn btn-default addDiapasone" type="button" value="Добавить диапазон" ng-click="addDiapasone(layer.number)"/>
 						</div>
 					</div>
 
-					<input class="btn btn-default addLayer col-md-offset-9" type="button" value="Добавить слой" ng-click="addLayer()"/>
+					<input class="btn btn-default addLayer col-md-offset-7" type="button" value="Добавить слой" ng-click="addLayer()"/>
+					<input class="btn btn-default updateManufacture" type="button" value="Обновить" ng-click="updateManufacture()"/>
 
 				</div>
 
 
-			</form>
-		</div>
-	</div>
-</div>
-
-
-
-
-
-
-
-
-
-<!---
-<div class="container-fluid">
-	<div class="row">
-		<div class="col-md-offset-3 col-md-6">
-			<form class="form-horizontal" novalidate name="manufactureForm" role="form">
-
-			  <div class="form-group">
-			    <label class="control-label col-md-3" for="man_types">Тип производства:</label>
-			    <div class="col-md-7">
-			    	<select id="man_types">
-			    	  <option ng-repeat="type in manufacture_types" value="type" ng-model="manufacture.man_type">{{type}}</option>
-			    	</select>
-			    </div>
-			  </div>
-
-			  <p><b>Выбор растровых слоев и диапазонов:</b></p>
-
-			  <div class="form-group" id="man_layers_diap">
-			  <p class="col-md-1"><b>Слой:</b></p>
-			    <div class="col-md-2" >
-			      <select >
-			    	  <option ng-repeat="layer in layers" value="type" ng-model="manufacture.layers">{{layer}}</option>
-			    	</select>
-			  	</div>
-			  	<p class="col-md-1"><b>Диапазон:</b></p>
-			  	<div class="col-md-3">
-			  	<div class="container">
-			  		<label class="control-label col-md-1" for="from">От:</label>
-			  		<input class="diap-inp col-md-3" id="from "type="text"/>
-			  	</div>
-			  	<div class="container">
-			  		<label class="control-label col-md-1" for="to">До:</label>
-			  		<input class="diap-inp col-md-3" id="to" type="text"/>
-			  	</div>
-			  		<div class="container">
-			  		<label class="control-label col-md-1" for="fromtovalue">Значение:</label>
-			  		<input class="diap-inp col-md-3" id="fromtovalue" type="text"/>
-			  	</div>
-			  	</div>
-			  	<div class="col-md-2">
-			        <input class="btn btn-default" id="save" type="button" value="Добавить диапазон" />
-			      </div>
-			  </div>
-			  <div class="form-group"> 
-			  <div class="col-md-offset-6 col-md-2">
-			  	<input class="btn btn-default" id="update" type="button" value="Добавить слой" />
-			  </div>
-			      <div class="col-md-2">
-			        <input class="btn btn-default" id="update" type="button" value="Обновить" ng-click="editManufacture(manufacture)" />
-			      </div>
-			   </div>
 			</form>
 		</div>
 	</div>
