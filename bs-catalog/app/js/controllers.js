@@ -185,6 +185,7 @@ bsCatalogControllers.controller('editManufactureCtrl', ['$scope', '$http',
 ]);
 
 
+
 //Additional to BusinessDetailController
 var addressNormalize = function(address){
       console.log(address);
@@ -193,4 +194,3 @@ var addressNormalize = function(address){
       console.log(newAddress);
       return newAddress;
     };
-

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [2016-05-24 17:48:03,764][INFO ][node                     ] [Sabreclaw] version[2.2.0], pid[11348], build[8ff36d1/2016-01-27T13:32:39Z]
 [2016-05-24 17:48:03,811][INFO ][node                     ] [Sabreclaw] initializing ...
 [2016-05-24 17:48:04,297][INFO ][plugins                  ] [Sabreclaw] modules [lang-expression, lang-groovy], plugins [license, marvel-agent], sites []
@@ -12,6 +13,55 @@
 [2016-05-24 17:48:17,203][INFO ][node                     ] [Sabreclaw] started
 [2016-05-24 17:48:18,631][INFO ][license.plugin.core      ] [Sabreclaw] license [e553a35c-d414-42dd-a0ca-b223abde3239] - expired
 [2016-05-24 17:48:18,631][ERROR][license.plugin.core      ] [Sabreclaw] 
+=======
+<<<<<<< HEAD
+[2016-04-21 12:21:49,905][INFO ][node                     ] [Prowler] version[2.2.0], pid[4492], build[8ff36d1/2016-01-27T13:32:39Z]
+[2016-04-21 12:21:50,181][INFO ][node                     ] [Prowler] initializing ...
+[2016-04-21 12:21:54,028][INFO ][plugins                  ] [Prowler] modules [lang-groovy, lang-expression], plugins [marvel-agent, license], sites []
+[2016-04-21 12:21:54,141][INFO ][env                      ] [Prowler] using [1] data paths, mounts [[FLASH32GB (D:)]], net usable_space [2.1gb], net total_space [29.7gb], spins? [unknown], types [FAT32]
+[2016-04-21 12:21:54,142][INFO ][env                      ] [Prowler] heap size [910.2mb], compressed ordinary object pointers [true]
+[2016-04-21 12:22:11,462][INFO ][node                     ] [Prowler] initialized
+[2016-04-21 12:22:11,463][INFO ][node                     ] [Prowler] starting ...
+[2016-04-21 12:22:12,889][INFO ][transport                ] [Prowler] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2016-04-21 12:22:12,921][INFO ][discovery                ] [Prowler] elasticsearch/FWwgheRHSbm9UkWvPW_O4g
+[2016-04-21 12:22:17,006][INFO ][cluster.service          ] [Prowler] new_master {Prowler}{FWwgheRHSbm9UkWvPW_O4g}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-21 12:22:18,818][INFO ][http                     ] [Prowler] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2016-04-21 12:22:18,819][INFO ][node                     ] [Prowler] started
+[2016-04-21 12:22:18,908][INFO ][license.plugin.core      ] [Prowler] license [e553a35c-d414-42dd-a0ca-b223abde3239] - expired
+[2016-04-21 12:22:19,144][ERROR][license.plugin.core      ] [Prowler] 
+#
+# LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
+# UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
+# 
+# COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2016-04-21 12:22:47,671][WARN ][cluster.routing.allocation.decider] [Prowler] high disk watermark [90%] exceeded on [FWwgheRHSbm9UkWvPW_O4g][Prowler][D:\Диплом\bs-catalog-dist\elasticsearch-2.2.0\data\elasticsearch\nodes\0] free: 2.1gb[7.3%], shards will be relocated away from this node
+[2016-04-21 12:22:47,675][INFO ][cluster.routing.allocation.decider] [Prowler] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2016-04-21 12:23:10,485][INFO ][node                     ] [Prowler] stopping ...
+[2016-04-21 12:23:12,541][INFO ][gateway                  ] [Prowler] recovered [21] indices into cluster_state
+[2016-04-21 12:23:12,542][WARN ][cluster.service          ] [Prowler] cluster state update task [local-gateway-elected-state] took 54.9s above the warn threshold of 30s
+[2016-04-21 12:23:12,550][ERROR][marvel.agent             ] [Prowler] background thread had an uncaught exception
+ElasticsearchException[failed to flush exporter bulks]
+	at org.elasticsearch.marvel.agent.exporter.ExportBulk$Compound.flush(ExportBulk.java:104)
+	at org.elasticsearch.marvel.agent.exporter.ExportBulk.close(ExportBulk.java:53)
+	at org.elasticsearch.marvel.agent.AgentService$ExportingWorker.run(AgentService.java:201)
+	at java.lang.Thread.run(Unknown Source)
+	Suppressed: ElasticsearchException[failed to flush [default_local] exporter bulk]; nested: ElasticsearchException[failure in bulk execution:
+[0]: index [.marvel-es-data], type [cluster_info], id [aou-8h2LT52MHSxtCZBJJg], message [NodeClosedException[node closed {Prowler}{FWwgheRHSbm9UkWvPW_O4g}{127.0.0.1}{127.0.0.1:9300}]]];
+		at org.elasticsearch.marvel.agent.exporter.ExportBulk$Compound.flush(ExportBulk.java:106)
+		... 3 more
+	Caused by: ElasticsearchException[failure in bulk execution:
+[0]: index [.marvel-es-data], type [cluster_info], id [aou-8h2LT52MHSxtCZBJJg], message [NodeClosedException[node closed {Prowler}{FWwgheRHSbm9UkWvPW_O4g}{127.0.0.1}{127.0.0.1:9300}]]]
+		at org.elasticsearch.marvel.agent.exporter.local.LocalBulk.flush(LocalBulk.java:114)
+		at org.elasticsearch.marvel.agent.exporter.ExportBulk$Compound.flush(ExportBulk.java:101)
+		... 3 more
+[2016-04-21 12:23:12,575][INFO ][node                     ] [Prowler] stopped
+[2016-04-21 12:23:12,576][INFO ][node                     ] [Prowler] closing ...
+[2016-04-21 12:23:12,605][INFO ][node                     ] [Prowler] closed
+=======
+[2016-05-19 00:03:16,188][ERROR][license.plugin.core      ] [Joshua Guthrie] 
+>>>>>>> b04ababd3957ea6bea439a5630181fc391f774a4
 #
 # LICENSE EXPIRED ON [Tuesday, April 12, 2016]. IF YOU HAVE A NEW LICENSE, PLEASE
 # UPDATE IT. OTHERWISE, PLEASE REACH OUT TO YOUR SUPPORT CONTACT.
@@ -77,7 +127,11 @@
 # COMMERCIAL PLUGINS OPERATING WITH REDUCED FUNCTIONALITY
 # - marvel
 #  - The agent will stop collecting cluster and indices metrics
+<<<<<<< HEAD
 [2016-05-24 19:08:13,026][INFO ][node                     ] [Sabreclaw] stopping ...
 [2016-05-24 19:08:14,057][INFO ][node                     ] [Sabreclaw] stopped
 [2016-05-24 19:08:14,057][INFO ][node                     ] [Sabreclaw] closing ...
 [2016-05-24 19:08:14,078][INFO ][node                     ] [Sabreclaw] closed
+=======
+>>>>>>> f9c89f7fae6e12e8e6ed2963c643578a25af6716
+>>>>>>> b04ababd3957ea6bea439a5630181fc391f774a4
