@@ -101,9 +101,7 @@ bsCatalogControllers.controller('BusinessAddCtrl', ['$scope', '$routeParams', '$
 bsCatalogControllers.controller('editManufactureCtrl', ['$scope', '$http',
   function($scope, $http) {
 
-    $scope.manufacture = [{
-    "manufacture_types": 
-    [
+    $scope.manufacture_types = [
       "Заготовка сырья",
       "Консалтинг, инжиниринг, продажа ноу-хау", 
       "Культура и креативные индустрии", 
@@ -124,18 +122,21 @@ bsCatalogControllers.controller('editManufactureCtrl', ['$scope', '$http',
       "Производство медикаментов", 
       "Производство сувениров", 
       "Сельскохозяйственное производство" 
-    ],
+    ];
+
+    $scope.layer_types = [
+      "temperature",
+      "forest",
+      "water"
+    ];
+
+    $scope.manufacture = [{
+    "selected_type":"",
     "manufacture_layers":
     [
       {
         "number":0,
-        "type":"",
-        "types":
-        [
-          "temperature",
-          "forest",
-          "water"
-        ],
+        "selected_type":"",
         "diapasones":
         [
           {
@@ -159,13 +160,7 @@ bsCatalogControllers.controller('editManufactureCtrl', ['$scope', '$http',
     $scope.addLayer = function() {
       $scope.manufacture[0].manufacture_layers = $scope.manufacture[0].manufacture_layers.concat([{
         "number":$scope.manufacture[0].manufacture_layers.length,
-        "type":"",
-        "types":
-        [
-          "temperature",
-          "forest",
-          "water"
-        ],
+        "selected_type":"",
         "diapasones":
         [
         {

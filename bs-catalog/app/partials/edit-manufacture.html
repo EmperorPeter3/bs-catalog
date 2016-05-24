@@ -6,8 +6,8 @@
 				<div class="control-group manufactureType col-md-10" ng-repeat="mfc in manufacture">
 					<!-- Label "Manufacture type:" - Dropdown select-->
 					<label class="control-label" for="man_types">Тип производства: </label>
-			    	<select class="controls" id="man_types">
-			    	  <option ng-repeat="type in mfc.manufacture_types" value="type">{{type}}</option>
+			    	<select class="controls" id="man_types" ng-model="mfc.selected_type">
+			    	  <option ng-repeat="type in manufacture_types" value="{{type}}">{{type}}</option>
 			    	</select>
 				
 					<div class="control-group manufactureLayers">
@@ -15,8 +15,8 @@
 						<div class="control-group layer" ng-repeat="layer in mfc.manufacture_layers">
 							<!-- Label "Layer:" - Dropdown select -->
 							<label class="control-label" for="man_layers">Слой: </label>
-					    	<select class="controls" id="man_layers">
-					    	  <option ng-repeat="l_type in layer.types" value="type" ng-model="layer.type">{{l_type}}</option>
+					    	<select class="controls" id="man_layers" ng-model="layer.selected_type">
+					    	  <option ng-repeat="l_type in layer_types" value="{{l_type}}" >{{l_type}}</option>
 					    	</select>
 					    	<div class="layerDiapasones">
 						    	<div class="diapasone" ng-repeat="diap in layer.diapasones">
